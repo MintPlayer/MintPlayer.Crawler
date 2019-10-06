@@ -55,15 +55,10 @@ namespace MintPlayer.Crawler.Request.Platforms
             var pMatch = pRegex.Match(lyricsMatch.Value);
             if (!pMatch.Success) throw new Exception("No P tag found");
 
-            var aRegex = new Regex(@"\<a.*?\>(?<text>.*?)\<\/a\>", RegexOptions.Singleline | RegexOptions.Multiline);
-            var lines = aRegex.Matches(pMatch.Value);
-            var arrLines = new Match[lines.Count];
-            lines.CopyTo(arrLines, 0);
+            var stripARegex = new Regex(@"\<a.*?\>|\<\/a\>", RegexOptions.Singleline | RegexOptions.Multiline);
+            var stripped = stripARegex.Replace(pMatch.Value, "");
 
-            var stripped = arrLines.Select(l => l.Groups["text"].Value);
-            return string.Join(Environment.NewLine, stripped);
-
-            //return rule?.tex;
+            return stripped.Replace("\r", "").Replace("\n", "").Replace("<br>", Environment.NewLine);
         }
     }
 }
