@@ -23,5 +23,7 @@ namespace MintPlayer.Crawler.Request.Data
         public MusicGroup ByArtist { get; set; }
         [JsonProperty("inAlbum")]
         public List<MusicAlbum> InAlbum { get; set; }
+
+        public string Lyrics { get; set; }
     }
 }

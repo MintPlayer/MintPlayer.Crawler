@@ -19,22 +19,39 @@ namespace MintPlayer.Crawler.Request.Platforms
             }
         }
 
-        public override async Task<Subject> Fetch(HttpClient httpClient, string url)
+        public override async Task<Subject> Fetch(HttpClient httpClient)
         {
-            var subject = await base.Fetch(httpClient, url);
+            var html = await SendRequest(httpClient);
+            var ld_json = await ReadLdJson();
+
+            var subject = JsonConvert.DeserializeObject<Subject>(ld_json);
+
 
             switch (subject.Type)
             {
                 case "MusicRecording":
-                    var recording = JsonConvert.DeserializeObject<MusicRecording>(ldJsonMatch.Value);
+                    var recording = JsonConvert.DeserializeObject<MusicRecording>(ld_json);
+
+                    // Read lyrics
+                    var lyricsRegex = new Regex(@"(?<=\<div class=\""lyrics\"">).*?(?=\<\/div\>)", RegexOptions.Singleline | RegexOptions.Multiline);
+                    var lyricsMatch = lyricsRegex.Match(Html);
+
+                    if (!lyricsMatch.Success) throw new Exception("No lyrics tag found");
+
+                    recording.Lyrics = TrimLyrics(lyricsMatch.Value);
 
                     return recording;
                 case "MusicGroup":
-                    var group = JsonConvert.DeserializeObject<MusicGroup>(ldJsonMatch.Value);
+                    var group = JsonConvert.DeserializeObject<MusicGroup>(ld_json);
                     return group;
                 default:
                     throw new Exception($"Subject type {subject.Type} not recognized");
             }
+        }
+
+        private string TrimLyrics(string lyrics)
+        {
+
         }
     }
 }

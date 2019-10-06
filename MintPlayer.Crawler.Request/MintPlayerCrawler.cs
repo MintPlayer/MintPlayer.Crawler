@@ -20,7 +20,9 @@ namespace MintPlayer.Crawler.Request
         {
             try
             {
-                
+                var fetcher = Platforms.Fetcher.ByUrl(url);
+                var subject = await fetcher.Fetch(httpClient);
+                return subject;
             }
             catch (Exception)
             {

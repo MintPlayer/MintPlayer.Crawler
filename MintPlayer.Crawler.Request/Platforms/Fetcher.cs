@@ -15,7 +15,9 @@ namespace MintPlayer.Crawler.Request.Platforms
         {
             if(GeniusFetcher.UrlFormat.IsMatch(url))
             {
-                return new GeniusFetcher();
+                var geniusFetcher = new GeniusFetcher();
+                geniusFetcher.Url = url;
+                return geniusFetcher;
             }
             else
             {
@@ -23,18 +25,26 @@ namespace MintPlayer.Crawler.Request.Platforms
             }
         }
 
-        public virtual async Task<string> Fetch(HttpClient httpClient, string url)
+        protected string Url { get; private set; }
+        protected string Html { get; set; }
+
+        protected async Task<string> SendRequest(HttpClient httpClient)
         {
-            var response = await httpClient.GetAsync(url);
-            var responseContent = await response.Content.ReadAsStringAsync();
+            var response = await httpClient.GetAsync(Url);
+            Html = await response.Content.ReadAsStringAsync();
+            return Html;
+        }
+
+        protected virtual async Task<string> ReadLdJson()
+        {
             var ldJsonRegex = new Regex(@"(?<=\<script type=\""application\/ld\+json\"">).*?(?=\<\/script\>)", RegexOptions.Singleline | RegexOptions.Multiline);
-            var ldJsonMatch = ldJsonRegex.Match(responseContent);
+            var ldJsonMatch = ldJsonRegex.Match(Html);
 
             if (!ldJsonMatch.Success) throw new Exception("No LD+json tag found");
 
-            var subject = JsonConvert.DeserializeObject<Subject>(ldJsonMatch.Value);
-
-            return subject;
+            return ldJsonMatch.Value;
         }
+
+        public abstract Task<Subject> Fetch(HttpClient httpClient);
     }
 }
