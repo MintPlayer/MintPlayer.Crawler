@@ -1,5 +1,4 @@
-﻿using MintPlayer.Crawler.Request.Data;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Net.Http;
 using System.Text.RegularExpressions;
@@ -16,7 +15,7 @@ namespace MintPlayer.Crawler.Request
             httpClient = new HttpClient();
         }
 
-        public async Task<Subject> GetByUrl(string url)
+        public async Task<Data.Subject> GetByUrl(string url)
         {
             try
             {

@@ -1,5 +1,4 @@
-﻿using MintPlayer.Crawler.Request.Data;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -35,16 +34,16 @@ namespace MintPlayer.Crawler.Request.Platforms
             return Html;
         }
 
-        protected virtual async Task<string> ReadLdJson()
-        {
-            var ldJsonRegex = new Regex(@"(?<=\<script type=\""application\/ld\+json\"">).*?(?=\<\/script\>)", RegexOptions.Singleline | RegexOptions.Multiline);
-            var ldJsonMatch = ldJsonRegex.Match(Html);
+        //protected virtual async Task<string> ReadLdJson()
+        //{
+        //    var ldJsonRegex = new Regex(@"(?<=\<script type=\""application\/ld\+json\"">).*?(?=\<\/script\>)", RegexOptions.Singleline | RegexOptions.Multiline);
+        //    var ldJsonMatch = ldJsonRegex.Match(Html);
 
-            if (!ldJsonMatch.Success) throw new Exception("No LD+json tag found");
+        //    if (!ldJsonMatch.Success) throw new Exception("No LD+json tag found");
 
-            return ldJsonMatch.Value;
-        }
+        //    return ldJsonMatch.Value;
+        //}
 
-        public abstract Task<Subject> Fetch(HttpClient httpClient);
+        public abstract Task<Data.Subject> Fetch(HttpClient httpClient);
     }
 }

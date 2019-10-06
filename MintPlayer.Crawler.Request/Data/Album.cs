@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MintPlayer.Crawler.Request.Data
 {
-    public class Subject
+    public class Album : Subject
     {
     }
 }

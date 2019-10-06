@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace MintPlayer.Crawler.Request.Data
+{
+    public class Song : Subject
+    {
+        public string Title { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public Artist PrimaryArtist { get; set; }
+        public List<Artist> FeaturedArtists { get; set; }
+        public string Lyrics { get; set; }
+    }
+}

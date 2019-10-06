@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace MintPlayer.Crawler.Request.Data
+namespace MintPlayer.Crawler.Request.LdJson
 {
     public class MusicGroup : Subject
     {
