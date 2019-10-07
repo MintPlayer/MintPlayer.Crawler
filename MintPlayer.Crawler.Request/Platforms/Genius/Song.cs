@@ -21,6 +21,9 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
         [JsonProperty("spotify_uuid")]
         public string SpotifyUuid { get; set; }
 
+        [JsonProperty("youtube_url")]
+        public string YoutubeUrl { get; set; }
+
         [JsonProperty("release_date")]
         [JsonConverter(typeof(DateFormatConverter), "yyyy-MM-dd")]
         public DateTime? ReleaseDate { get; set; }
@@ -49,7 +52,14 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
                 PrimaryArtist = PrimaryArtist.ToDto(),
                 FeaturedArtists = FeaturedArtists == null ? null : FeaturedArtists.Select(a => a.ToDto()).ToList(),
                 Url = Url,
-                Lyrics = Lyrics
+                Lyrics = Lyrics,
+                Media = new List<Data.Medium>(new[]
+                {
+                    new Data.Medium { Type = Data.eMediumType.Apple, Value = AppleMusicId },
+                    new Data.Medium { Type = Data.eMediumType.SoundCloud, Value = SoundCloudUrl },
+                    new Data.Medium { Type = Data.eMediumType.Spotify, Value = SpotifyUuid },
+                    new Data.Medium { Type = Data.eMediumType.YouTube, Value = YoutubeUrl }
+                })
             };
         }
     }

@@ -11,5 +11,6 @@ namespace MintPlayer.Crawler.Request.Data
         public List<Artist> FeaturedArtists { get; set; }
         public string Url { get; set; }
         public string Lyrics { get; set; }
+        public List<Medium> Media { get; set; }
     }
 }
