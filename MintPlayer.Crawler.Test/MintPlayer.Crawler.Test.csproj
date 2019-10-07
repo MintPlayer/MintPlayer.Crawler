@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Genius.NET" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\MintPlayer.Crawler.Request\MintPlayer.Crawler.Request.csproj" />
   </ItemGroup>
 

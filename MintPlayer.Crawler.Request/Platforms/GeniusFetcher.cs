@@ -32,7 +32,35 @@ namespace MintPlayer.Crawler.Request.Platforms
                 case "profile":
                     {
                         var data = JsonConvert.DeserializeObject<Platforms.Genius.ArtistData>(page_data);
-                        return data.Artist.ToDto();
+
+                        var songs = new List<Genius.Song>();
+                        var page = (int?)1;
+                        var songs_structure = new
+                        {
+                            meta = new
+                            {
+                                status = 0
+                            },
+                            response = new
+                            {
+                                next_page = (int?)0,
+                                songs = new List<Genius.Song>()
+                            }
+                        };
+
+                        while (true)
+                        {
+                            var response = await httpClient.GetAsync($"https://genius.com/api/artists/{data.Artist.Id}/songs?per_page=50&page={page}&sort=popularity");
+                            var json_songs = await response.Content.ReadAsStringAsync();
+                            var data_songs = JsonConvert.DeserializeAnonymousType(json_songs, songs_structure);
+                            songs.AddRange(data_songs.response.songs);
+
+                            if ((page = data_songs.response.next_page) == null)
+                                break;
+                        }
+                        data.Songs = songs;
+
+                        return data.ToDto();
                     }
                 case "song":
                     {

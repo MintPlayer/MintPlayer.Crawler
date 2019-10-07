@@ -12,8 +12,6 @@ namespace MintPlayer.Crawler.Test
             var crawler = new MintPlayerCrawler();
             var res = crawler.GetByUrl("https://genius.com/Daft-punk-get-lucky-lyrics").Result;
             var res0 = crawler.GetByUrl("https://genius.com/artists/Daft-punk").Result;
-
-        
         }
     }
 }

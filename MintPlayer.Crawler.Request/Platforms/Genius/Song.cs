@@ -23,7 +23,7 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
 
         [JsonProperty("release_date")]
         [JsonConverter(typeof(DateFormatConverter), "yyyy-MM-dd")]
-        public DateTime ReleaseDate { get; set; }
+        public DateTime? ReleaseDate { get; set; }
 
         [JsonProperty("title")]
         public string Title { get; set; }
@@ -33,6 +33,9 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
 
         [JsonProperty("featured_artists")]
         public List<Artist> FeaturedArtists { get; set; }
+
+        [JsonProperty("url")]
+        public string Url { get; set; }
 
         [JsonIgnore]
         public string Lyrics { get; set; }
@@ -44,7 +47,8 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
                 Title = Title,
                 ReleaseDate = ReleaseDate,
                 PrimaryArtist = PrimaryArtist.ToDto(),
-                FeaturedArtists = FeaturedArtists.Select(a => a.ToDto()).ToList(),
+                FeaturedArtists = FeaturedArtists == null ? null : FeaturedArtists.Select(a => a.ToDto()).ToList(),
+                Url = Url,
                 Lyrics = Lyrics
             };
         }
