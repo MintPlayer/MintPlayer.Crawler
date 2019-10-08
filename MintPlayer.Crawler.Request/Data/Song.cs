@@ -5,6 +5,7 @@ namespace MintPlayer.Crawler.Request.Data
 {
     public class Song : Subject
     {
+        public int Id { get; set; }
         public string Title { get; set; }
         public DateTime? ReleaseDate { get; set; }
         public Artist PrimaryArtist { get; set; }

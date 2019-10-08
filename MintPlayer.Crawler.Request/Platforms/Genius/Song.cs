@@ -47,6 +47,7 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
         {
             return new Data.Song
             {
+                Id = Id,
                 Title = Title,
                 ReleaseDate = ReleaseDate,
                 PrimaryArtist = PrimaryArtist.ToDto(),

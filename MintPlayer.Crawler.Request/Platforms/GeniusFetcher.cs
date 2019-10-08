@@ -70,34 +70,12 @@ namespace MintPlayer.Crawler.Request.Platforms
                     }
                 case "album":
                     {
-                        // return Album
+                        var data = JsonConvert.DeserializeObject<Genius.AlbumData>(page_data);
+                        return data.ToDto();
                     }
-                    break;
                 default:
                     throw new Exception("Type not recognized");
             }
-
-            //var ld_json = await ReadLdJson();
-
-            //var subject = JsonConvert.DeserializeObject<Subject>(ld_json);
-
-
-            //switch (subject.Type)
-            //{
-            //    case "MusicRecording":
-            //        var recording = JsonConvert.DeserializeObject<MusicRecording>(ld_json);
-
-            //        // Read lyrics
-            //        recording.Lyrics = ExtractLyrics(Html);
-
-            //        return recording;
-            //    case "MusicGroup":
-            //        var group = JsonConvert.DeserializeObject<MusicGroup>(ld_json);
-            //        return group;
-            //    default:
-            //        throw new Exception($"Subject type {subject.Type} not recognized");
-            //}
-            return null;
         }
 
         public async Task<string> ReadPageData(string html)
@@ -117,10 +95,6 @@ namespace MintPlayer.Crawler.Request.Platforms
 
         private string ExtractLyrics(string pageDataBodyHtml, bool trimTrash)
         {
-            //var lyricsRegex = new Regex(@"(?<=\<div class=\""lyrics\""\>).*?(?=\<\/div\>)", RegexOptions.Singleline | RegexOptions.Multiline);
-            //var lyricsMatch = lyricsRegex.Match(html);
-            //if (!lyricsMatch.Success) throw new Exception("No lyrics tag found");
-
             var pRegex = new Regex(@"(?<=\<p\>).*?(?=\<\/p\>)", RegexOptions.Singleline | RegexOptions.Multiline);
             var pMatch = pRegex.Match(pageDataBodyHtml);
             if (!pMatch.Success) throw new Exception("No P tag found");
