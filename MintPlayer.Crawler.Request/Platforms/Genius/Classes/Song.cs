@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MintPlayer.Crawler.Request.Platforms.Genius
+namespace MintPlayer.Crawler.Request.Platforms.Genius.Classes
 {
     internal class Song
     {
@@ -45,13 +45,15 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius
 
         public Data.Song ToDto()
         {
+            var artists = FeaturedArtists == null ? new List<Data.Artist>() : FeaturedArtists.Select(a => a.ToDto()).ToList();
+            artists.Add(PrimaryArtist.ToDto());
+
             return new Data.Song
             {
                 Id = Id,
                 Title = Title,
                 ReleaseDate = ReleaseDate,
-                PrimaryArtist = PrimaryArtist.ToDto(),
-                FeaturedArtists = FeaturedArtists == null ? null : FeaturedArtists.Select(a => a.ToDto()).ToList(),
+                Artists = artists,
                 Url = Url,
                 Lyrics = Lyrics,
                 Media = new List<Data.Medium>(new[]

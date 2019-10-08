@@ -12,11 +12,17 @@ namespace MintPlayer.Crawler.Request.Platforms
     {
         public static Fetcher ByUrl(string url)
         {
-            if(GeniusFetcher.UrlFormat.IsMatch(url))
+            if (Genius.GeniusFetcher.UrlFormat.IsMatch(url))
             {
-                var geniusFetcher = new GeniusFetcher();
-                geniusFetcher.Url = url;
-                return geniusFetcher;
+                return new Genius.GeniusFetcher { Url = url };
+            }
+            else if (Musixmatch.MusixmatchFetcher.UrlFormat.IsMatch(url))
+            {
+                return new Musixmatch.MusixmatchFetcher { Url = url };
+            }
+            else if (SongtekstenNet.SongtekstenNetFetcher.UrlFormat.IsMatch(url))
+            {
+                return new SongtekstenNet.SongtekstenNetFetcher { Url = url };
             }
             else
             {

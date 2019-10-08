@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MintPlayer.Crawler.Request.Platforms.Genius
+namespace MintPlayer.Crawler.Request.Platforms.Genius.Classes
 {
     internal class SongData
     {

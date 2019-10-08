@@ -12,5 +12,6 @@ namespace MintPlayer.Crawler.Request.Data
         public string Url { get; set; }
 
         public List<Song> Songs { get; set; }
+        public List<Album> Albums { get; set; }
     }
 }

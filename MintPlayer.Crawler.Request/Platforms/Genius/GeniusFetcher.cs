@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace MintPlayer.Crawler.Request.Platforms
+namespace MintPlayer.Crawler.Request.Platforms.Genius
 {
     internal class GeniusFetcher : Fetcher
     {
@@ -15,7 +15,7 @@ namespace MintPlayer.Crawler.Request.Platforms
         {
             get
             {
-                return new Regex(@"https\:\/\/genius.com\/.+");
+                return new Regex(@"https\:\/\/genius\.com\/.+");
             }
         }
 
@@ -31,9 +31,10 @@ namespace MintPlayer.Crawler.Request.Platforms
             {
                 case "profile":
                     {
-                        var data = JsonConvert.DeserializeObject<Platforms.Genius.ArtistData>(page_data);
+                        var data = JsonConvert.DeserializeObject<Classes.ArtistData>(page_data);
 
-                        var songs = new List<Genius.Song>();
+                        var songs = new List<Classes.Song>();
+                        var albums = new List<Classes.Album>();
                         var page = (int?)1;
                         var songs_structure = new
                         {
@@ -44,7 +45,19 @@ namespace MintPlayer.Crawler.Request.Platforms
                             response = new
                             {
                                 next_page = (int?)0,
-                                songs = new List<Genius.Song>()
+                                songs = new List<Classes.Song>()
+                            }
+                        };
+                        var albums_structure = new
+                        {
+                            meta = new
+                            {
+                                status = 0
+                            },
+                            response = new
+                            {
+                                next_page = (int?)0,
+                                albums = new List<Classes.Album>()
                             }
                         };
 
@@ -58,19 +71,33 @@ namespace MintPlayer.Crawler.Request.Platforms
                             if ((page = data_songs.response.next_page) == null)
                                 break;
                         }
+
+                        page = 1;
+                        while (true)
+                        {
+                            var response = await httpClient.GetAsync($"https://genius.com/api/artists/{data.Artist.Id}/albums?per_page=50&page={page}");
+                            var json_albums = await response.Content.ReadAsStringAsync();
+                            var data_albums = JsonConvert.DeserializeAnonymousType(json_albums, albums_structure);
+                            albums.AddRange(data_albums.response.albums);
+
+                            if ((page = data_albums.response.next_page) == null)
+                                break;
+                        }
+
                         data.Songs = songs;
+                        data.Albums = albums;
 
                         return data.ToDto();
                     }
                 case "song":
                     {
-                        var data = JsonConvert.DeserializeObject<Platforms.Genius.SongData>(page_data);
+                        var data = JsonConvert.DeserializeObject<Classes.SongData>(page_data);
                         data.Song.Lyrics = ExtractLyrics(data.LyricsData.Body.Html, trimTrash);
                         return data.Song.ToDto();
                     }
                 case "album":
                     {
-                        var data = JsonConvert.DeserializeObject<Genius.AlbumData>(page_data);
+                        var data = JsonConvert.DeserializeObject<Classes.AlbumData>(page_data);
                         return data.ToDto();
                     }
                 default:
