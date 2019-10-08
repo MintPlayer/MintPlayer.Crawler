@@ -19,7 +19,7 @@ namespace MintPlayer.Crawler.Request.Platforms
             }
         }
 
-        public override async Task<Data.Subject> Fetch(HttpClient httpClient)
+        public override async Task<Data.Subject> Fetch(HttpClient httpClient, bool trimTrash)
         {
             var html = await SendRequest(httpClient);
             var page_data = await ReadPageData(html);
@@ -65,7 +65,7 @@ namespace MintPlayer.Crawler.Request.Platforms
                 case "song":
                     {
                         var data = JsonConvert.DeserializeObject<Platforms.Genius.SongData>(page_data);
-                        data.Song.Lyrics = ExtractLyrics(html);
+                        data.Song.Lyrics = ExtractLyrics(data.LyricsData.Body.Html, trimTrash);
                         return data.Song.ToDto();
                     }
                 case "album":
@@ -115,20 +115,30 @@ namespace MintPlayer.Crawler.Request.Platforms
             return fixedPageData;
         }
 
-        private string ExtractLyrics(string html)
+        private string ExtractLyrics(string pageDataBodyHtml, bool trimTrash)
         {
-            var lyricsRegex = new Regex(@"(?<=\<div class=\""lyrics\""\>).*?(?=\<\/div\>)", RegexOptions.Singleline | RegexOptions.Multiline);
-            var lyricsMatch = lyricsRegex.Match(html);
-            if (!lyricsMatch.Success) throw new Exception("No lyrics tag found");
+            //var lyricsRegex = new Regex(@"(?<=\<div class=\""lyrics\""\>).*?(?=\<\/div\>)", RegexOptions.Singleline | RegexOptions.Multiline);
+            //var lyricsMatch = lyricsRegex.Match(html);
+            //if (!lyricsMatch.Success) throw new Exception("No lyrics tag found");
 
             var pRegex = new Regex(@"(?<=\<p\>).*?(?=\<\/p\>)", RegexOptions.Singleline | RegexOptions.Multiline);
-            var pMatch = pRegex.Match(lyricsMatch.Value);
+            var pMatch = pRegex.Match(pageDataBodyHtml);
             if (!pMatch.Success) throw new Exception("No P tag found");
 
             var stripARegex = new Regex(@"\<a.*?\>|\<\/a\>", RegexOptions.Singleline | RegexOptions.Multiline);
             var stripped = stripARegex.Replace(pMatch.Value, "");
+            var whitespaces_stripped = stripped.Replace("\r", "").Replace("\n", "").Replace("<br>", Environment.NewLine);
 
-            return stripped.Replace("\r", "").Replace("\n", "").Replace("<br>", Environment.NewLine);
+            if(trimTrash)
+            {
+                var stripBracketsRegex = new Regex(@"\[.*?\]\r\n", RegexOptions.Singleline | RegexOptions.Multiline);
+                var brackets_stripped = stripBracketsRegex.Replace(whitespaces_stripped, "");
+                return brackets_stripped;
+            }
+            else
+            {
+                return whitespaces_stripped;
+            }
         }
     }
 }

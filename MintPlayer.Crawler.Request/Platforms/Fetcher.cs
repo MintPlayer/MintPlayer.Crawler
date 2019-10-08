@@ -44,6 +44,6 @@ namespace MintPlayer.Crawler.Request.Platforms
         //    return ldJsonMatch.Value;
         //}
 
-        public abstract Task<Data.Subject> Fetch(HttpClient httpClient);
+        public abstract Task<Data.Subject> Fetch(HttpClient httpClient, bool trimTrash);
     }
 }

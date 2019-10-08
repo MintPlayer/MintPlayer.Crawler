@@ -10,8 +10,8 @@ namespace MintPlayer.Crawler.Test
             Console.WriteLine("Hello World!");
 
             var crawler = new MintPlayerCrawler();
-            var res = crawler.GetByUrl("https://genius.com/Daft-punk-get-lucky-lyrics").Result;
-            var res0 = crawler.GetByUrl("https://genius.com/artists/Daft-punk").Result;
+            var res = crawler.GetByUrl("https://genius.com/Daft-punk-get-lucky-lyrics", true).Result;
+            var res0 = crawler.GetByUrl("https://genius.com/artists/Daft-punk", true).Result;
         }
     }
 }

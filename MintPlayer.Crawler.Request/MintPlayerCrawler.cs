@@ -15,12 +15,12 @@ namespace MintPlayer.Crawler.Request
             httpClient = new HttpClient();
         }
 
-        public async Task<Data.Subject> GetByUrl(string url)
+        public async Task<Data.Subject> GetByUrl(string url, bool trimTrash)
         {
             try
             {
                 var fetcher = Platforms.Fetcher.ByUrl(url);
-                var subject = await fetcher.Fetch(httpClient);
+                var subject = await fetcher.Fetch(httpClient, trimTrash);
                 return subject;
             }
             catch (Exception)
