@@ -1,0 +1,2260 @@
+{
+  "chartbeat": {
+    "authors": "Oasis",
+    "sections": "songs,tag:rock",
+    "title": "Oasis – Whatever Lyrics | Genius Lyrics"
+  },
+  "controller_and_action": "songs#show",
+  "dmp_data_layer": {
+    "page": {
+      "type": "song",
+      "artists": [
+        "Oasis"
+      ],
+      "artist_ids": [
+        "[21100]"
+      ],
+      "albums": [
+        "Time Flies... 1994–2009",
+        "Miscellaneous"
+      ],
+      "album_ids": [
+        "[122913]",
+        "[123434]"
+      ],
+      "genres": [
+        "UK",
+        "Brit Pop",
+        "British Rock",
+        "Rock Genius"
+      ],
+      "genre_ids": [
+        "[1623]",
+        "[2976]",
+        "[2033]",
+        "[567]"
+      ],
+      "in_top_10": false,
+      "artist_in_top_10": false,
+      "album_in_top_10": false,
+      "new_release": false,
+      "release_month": "199412",
+      "release_year": 1994,
+      "release_decade": 1990
+    }
+  },
+  "header_bid_placements": [
+    [
+      "desktop_song_leaderboard",
+      "desktop_song_leaderboard"
+    ],
+    [
+      "desktop_song_sidebar_top",
+      "desktop_song_sidebar_top"
+    ],
+    [
+      "desktop_song_medium1",
+      "desktop_song_medium1"
+    ]
+  ],
+  "initial_ad_units": [
+    "desktop_song_inread",
+    "desktop_song_inread2",
+    "desktop_song_inread3",
+    "desktop_song_leaderboard",
+    "desktop_song_lyrics_footer",
+    "desktop_song_marquee",
+    "desktop_song_medium1",
+    "desktop_song_sidebar_top"
+  ],
+  "page_type": "song",
+  "path": "/Oasis-whatever-lyrics",
+  "probably_spam": false,
+  "title": "Oasis – Whatever Lyrics | Genius Lyrics",
+  "tracking_data": [
+    {
+      "key": "Song ID",
+      "value": 119645
+    },
+    {
+      "key": "Title",
+      "value": "Whatever"
+    },
+    {
+      "key": "Primary Artist",
+      "value": "Oasis"
+    },
+    {
+      "key": "Primary Artist ID",
+      "value": 21100
+    },
+    {
+      "key": "Primary Album",
+      "value": "Time Flies... 1994–2009"
+    },
+    {
+      "key": "Primary Album ID",
+      "value": 122913
+    },
+    {
+      "key": "Tag",
+      "value": "rock"
+    },
+    {
+      "key": "Primary Tag",
+      "value": "rock"
+    },
+    {
+      "key": "Primary Tag ID",
+      "value": 567
+    },
+    {
+      "key": "Music?",
+      "value": true
+    },
+    {
+      "key": "Annotatable Type",
+      "value": "Song"
+    },
+    {
+      "key": "Annotatable ID",
+      "value": 119645
+    },
+    {
+      "key": "featured_video",
+      "value": true
+    },
+    {
+      "key": "cohort_ids",
+      "value": [
+
+      ]
+    },
+    {
+      "key": "has_verified_callout",
+      "value": false
+    },
+    {
+      "key": "has_featured_annotation",
+      "value": true
+    },
+    {
+      "key": "created_at",
+      "value": "2013-02-20T23:47:19Z"
+    },
+    {
+      "key": "created_month",
+      "value": "2013-02-01"
+    },
+    {
+      "key": "created_year",
+      "value": 2013
+    },
+    {
+      "key": "song_tier",
+      "value": "D"
+    },
+    {
+      "key": "Has Recirculated Articles",
+      "value": false
+    },
+    {
+      "key": "Lyrics Language",
+      "value": "en"
+    },
+    {
+      "key": "Has Song Story",
+      "value": false
+    },
+    {
+      "key": "Song Story ID",
+      "value": null
+    },
+    {
+      "key": "Has Apple Match",
+      "value": true
+    }
+  ],
+  "answered_pending_question_count": 0,
+  "dfp_kv": [
+    {
+      "name": "song_id",
+      "values": [
+        "119645"
+      ]
+    },
+    {
+      "name": "song_title",
+      "values": [
+        "Whatever"
+      ]
+    },
+    {
+      "name": "artist_id",
+      "values": [
+        "21100"
+      ]
+    },
+    {
+      "name": "artist_name",
+      "values": [
+        "Oasis"
+      ]
+    },
+    {
+      "name": "is_explicit",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "pageviews",
+      "values": [
+        "30029"
+      ]
+    },
+    {
+      "name": "primary_tag_id",
+      "values": [
+        "567"
+      ]
+    },
+    {
+      "name": "tag_id",
+      "values": [
+        "1623",
+        "2976",
+        "2033",
+        "567"
+      ]
+    },
+    {
+      "name": "song_tier",
+      "values": [
+        "D"
+      ]
+    },
+    {
+      "name": "topic",
+      "values": [
+
+      ]
+    },
+    {
+      "name": "has_song_story",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "in_top_10",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "artist_in_top_10",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "album_in_top_10",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "new_release",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "release_month",
+      "values": [
+        "199412"
+      ]
+    },
+    {
+      "name": "release_year",
+      "values": [
+        "1994"
+      ]
+    },
+    {
+      "name": "release_decade",
+      "values": [
+        "1990"
+      ]
+    },
+    {
+      "name": "in_top_10_rap",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "in_top_10_rock",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "in_top_10_country",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "in_top_10_r_and_b",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "in_top_10_pop",
+      "values": [
+        "false"
+      ]
+    },
+    {
+      "name": "template",
+      "values": [
+        "song"
+      ]
+    },
+    {
+      "name": "environment",
+      "values": [
+        "production"
+      ]
+    },
+    {
+      "name": "platform",
+      "values": [
+        "web"
+      ]
+    }
+  ],
+  "pending_question_count": 0,
+  "show_edit_form": false,
+  "show_featured_question": false,
+  "spotify_referral": false,
+  "annotation_previews": [
+
+  ],
+  "default_questions": [
+
+  ],
+  "featured_question": null,
+  "lyrics_data": {
+    "client_timestamps": {
+      "lyrics_updated_at": 1550949354,
+      "updated_by_human_at": 1550939924
+    },
+    "body": {
+      "html": "&lt;p&gt;[Verse 1]&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7168816\" data-id=\"7168816\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7168816\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"0\"&gt;I&#39;m free to be whatever I&lt;br&gt;\nWhatever I choose and I&#39;ll sing the blues if I want&lt;/a&gt;&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7613326\" data-id=\"7613326\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7613326\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"unreviewed\" image=\"false\" pending-editorial-actions-count=\"1\"&gt;I&#39;m free to say whatever I&lt;br&gt;\nWhatever I like if it&#39;s wrong or right, it&#39;s alright&lt;/a&gt;&lt;br&gt;\n&lt;br&gt;\n[Chorus]&lt;br&gt;\nAlways seems to me&lt;br&gt;\nYou only see what people want you to see&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7613341\" data-id=\"7613341\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7613341\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"1\"&gt;How long&#39;s it gonna be&lt;br&gt;\nBefore we get on the bus and cause no fuss&lt;/a&gt;&lt;br&gt;\nGet a grip on yourself it don&#39;t cost much&lt;br&gt;\n&lt;br&gt;\n[Verse 2]&lt;br&gt;\nFree to be whatever you&lt;br&gt;\nWhatever you say if it comes no way, it&#39;s alright&lt;br&gt;\nYou&#39;re free to be wherever you&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-10981773\" data-id=\"10981773\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"10981773\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"0\"&gt;Wherever you please you can shoot the breeze if you want&lt;/a&gt;&lt;br&gt;\n&lt;br&gt;\n[Chorus]&lt;br&gt;\nIt always seems to me&lt;br&gt;\nYou only see what people want you to see&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7613341\" data-id=\"7613341\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7613341\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"1\"&gt;How long&#39;s it gonna be&lt;br&gt;\nBefore we get on the bus and cause no fuss&lt;/a&gt;&lt;br&gt;\nGet a grip on yourself it don&#39;t cost much&lt;br&gt;\n&lt;br&gt;\n[Verse 3]&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7168816\" data-id=\"7168816\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7168816\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"0\"&gt;Free to be whatever I&lt;br&gt;\nWhatever I choose and I&#39;ll sing the blues if I want&lt;/a&gt;&lt;br&gt;\n&lt;br&gt;\n[Bridge]&lt;br&gt;\nHere in my mind&lt;br&gt;\nYou know you might find&lt;br&gt;\nSomething that you&lt;br&gt;\nYou thought you once knew&lt;br&gt;\nBut now it&#39;s all gone&lt;br&gt;\nAnd you know it&#39;s no fun&lt;br&gt;\nYou know it&#39;s no fun&lt;br&gt;\nAnd you know it&#39;s no fun&lt;br&gt;\n&lt;br&gt;\n[Verse 4]&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7168816\" data-id=\"7168816\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7168816\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"0\"&gt;I&#39;m free to be whatever I&lt;br&gt;\nWhatever I choose and I&#39;ll sing the blues if I want&lt;/a&gt;&lt;br&gt;\n&lt;a href=\"/Oasis-whatever-lyrics#note-7168816\" data-id=\"7168816\" class=\"referent\" ng-click=\"open()\" ng-class=\"{\n          &#39;referent--linked_to_preview&#39;: song_ctrl.referent_has_preview(fragment_id),\n          &#39;referent--linked_to_preview_active&#39;: song_ctrl.highlight_preview_referent(fragment_element_id),\n          &#39;referent--purple_indicator&#39;: song_ctrl.show_preview_referent_indicator(fragment_element_id)\n        }\" prevent-default-click=\"\" annotation-fragment=\"7168816\" on-hover-with-no-digest=\"set_current_hover_and_digest(hover ? fragment_id : undefined)\" classification=\"accepted\" image=\"false\" pending-editorial-actions-count=\"0\"&gt;I&#39;m free to be whatever I&lt;br&gt;\nWhatever I choose and I&#39;ll sing the blues if I want&lt;/a&gt;&lt;br&gt;\nWhatever you do, whatever you say, I know it&#39;s alright&lt;br&gt;\nWhatever you do, whatever you say, I know it&#39;s alright&lt;/p&gt;\n\n"
+    }
+  },
+  "next_track": {
+    "number": 25,
+    "song": {
+      "_type": "song",
+      "annotation_count": 5,
+      "api_path": "/songs/119436",
+      "full_title": "I&#39;m Outta Time by Oasis",
+      "header_image_thumbnail_url": "https://images.genius.com/8860043318e7d147303383b8b891b124.300x300x1.jpg",
+      "header_image_url": "https://images.genius.com/8860043318e7d147303383b8b891b124.1000x1000x1.jpg",
+      "id": 119436,
+      "instrumental": false,
+      "lyrics_owner_id": 86871,
+      "lyrics_state": "complete",
+      "lyrics_updated_at": 1560740165,
+      "path": "/Oasis-im-outta-time-lyrics",
+      "pyongs_count": 4,
+      "song_art_image_thumbnail_url": "https://images.rapgenius.com/736b1cddf68eb62bb6665af79d70caf9.300x300x1.jpg",
+      "song_art_image_url": "https://images.rapgenius.com/736b1cddf68eb62bb6665af79d70caf9.500x500x1.jpg",
+      "stats": {
+        "unreviewed_annotations": 2,
+        "hot": false,
+        "pageviews": 16494
+      },
+      "title": "I’m Outta Time",
+      "title_with_featured": "I&#39;m Outta Time",
+      "updated_by_human_at": 1560740165,
+      "url": "https://genius.com/Oasis-im-outta-time-lyrics",
+      "primary_artist": {
+        "_type": "artist",
+        "api_path": "/artists/21100",
+        "header_image_url": "https://images.genius.com/03628574fa075d2be67ace5f5a7b80f6.300x139x1.png",
+        "id": 21100,
+        "image_url": "https://images.genius.com/5b44be44ae2cc44dd08db4e8e07b18bb.800x800x1.jpg",
+        "index_character": "o",
+        "is_meme_verified": false,
+        "is_verified": true,
+        "name": "Oasis",
+        "slug": "Oasis",
+        "url": "https://genius.com/artists/Oasis",
+        "iq": 104
+      }
+    }
+  },
+  "pinned_questions": [
+    {
+      "_type": "question",
+      "body": "What have the artists said about the song?",
+      "contributors_count": 1,
+      "created_at": 1491485090,
+      "default_key": "artist_comment",
+      "has_voters": false,
+      "id": 69542,
+      "pin_order": 65536.0,
+      "state": "pinned",
+      "url": "https://genius.com/Oasis-whatever-lyrics/questions/69542",
+      "votes_total": 0,
+      "current_user_metadata": {
+        "permissions": [
+
+        ],
+        "excluded_permissions": [
+          "vote",
+          "add_answer",
+          "update_answer_source",
+          "edit",
+          "archive",
+          "pin",
+          "unpin",
+          "move",
+          "add_verified_answer"
+        ],
+        "iq_by_action": {
+
+        },
+        "interactions": {
+          "vote": null
+        }
+      },
+      "answer": {
+        "_type": "answer",
+        "body": {
+          "html": "&lt;p&gt;Noel Gallagher on the song,&lt;/p&gt;\n\n&lt;blockquote&gt;&lt;p&gt;I think this kind of wraps up the first part of Oasis, Which is quite innocent and pure. It started to get very serious after that, we were kind of – a big rock band although we didn’t feel it at the time.&lt;/p&gt;&lt;/blockquote&gt;",
+          "markdown": "Noel Gallagher on the song,\n\n&gt; I think this kind of wraps up the first part of Oasis, Which is quite innocent and pure. It started to get very serious after that, we were kind of - a big rock band although we didn&#39;t feel it at the time."
+        },
+        "created_at": 1491485090,
+        "editorial_state": "normal",
+        "has_voters": false,
+        "id": 30058,
+        "votes_total": 0,
+        "current_user_metadata": {
+          "permissions": [
+
+          ],
+          "excluded_permissions": [
+            "vote",
+            "edit",
+            "destroy"
+          ],
+          "interactions": {
+            "vote": null
+          }
+        },
+        "answer_source": null,
+        "authors": [
+          {
+            "_type": "user_attribution",
+            "attribution": 1.0,
+            "pinned_role": null,
+            "user": {
+              "_type": "user",
+              "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+              "api_path": "/users/721779",
+              "avatar": {
+                "tiny": {
+                  "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 16,
+                    "height": 16
+                  }
+                },
+                "thumb": {
+                  "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 32,
+                    "height": 32
+                  }
+                },
+                "small": {
+                  "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 100,
+                    "height": 100
+                  }
+                },
+                "medium": {
+                  "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 300,
+                    "height": 400
+                  }
+                }
+              },
+              "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+              "human_readable_role_for_display": "Editor",
+              "id": 721779,
+              "iq": 94191,
+              "is_meme_verified": false,
+              "is_verified": false,
+              "login": "m4ths",
+              "name": "m4ths",
+              "role_for_display": "editor",
+              "url": "https://genius.com/m4ths",
+              "current_user_metadata": {
+                "permissions": [
+
+                ],
+                "excluded_permissions": [
+                  "follow"
+                ],
+                "interactions": {
+                  "following": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "author": {
+        "_type": "user",
+        "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+        "api_path": "/users/721779",
+        "avatar": {
+          "tiny": {
+            "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 16,
+              "height": 16
+            }
+          },
+          "thumb": {
+            "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 32,
+              "height": 32
+            }
+          },
+          "small": {
+            "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 300,
+              "height": 400
+            }
+          }
+        },
+        "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+        "human_readable_role_for_display": "Editor",
+        "id": 721779,
+        "iq": 94191,
+        "is_meme_verified": false,
+        "is_verified": false,
+        "login": "m4ths",
+        "name": "m4ths",
+        "role_for_display": "editor",
+        "url": "https://genius.com/m4ths",
+        "current_user_metadata": {
+          "permissions": [
+
+          ],
+          "excluded_permissions": [
+            "follow"
+          ],
+          "interactions": {
+            "following": false
+          }
+        }
+      }
+    },
+    {
+      "_type": "question",
+      "body": "What was the tracklist of the CD single release?",
+      "contributors_count": 1,
+      "created_at": 1512402787,
+      "default_key": null,
+      "has_voters": false,
+      "id": 137529,
+      "pin_order": 131072.0,
+      "state": "pinned",
+      "url": "https://genius.com/Oasis-whatever-lyrics/questions/137529",
+      "votes_total": 0,
+      "current_user_metadata": {
+        "permissions": [
+
+        ],
+        "excluded_permissions": [
+          "vote",
+          "add_answer",
+          "update_answer_source",
+          "edit",
+          "archive",
+          "pin",
+          "unpin",
+          "move",
+          "add_verified_answer"
+        ],
+        "iq_by_action": {
+
+        },
+        "interactions": {
+          "vote": null
+        }
+      },
+      "answer": {
+        "_type": "answer",
+        "body": {
+          "html": "&lt;ol&gt;\n&lt;li&gt;“Whatever”&lt;/li&gt;\n&lt;li&gt;“&lt;a href=\"https://genius.com/Oasis-its-good-to-be-free-lyrics\" rel=\"noopener\" data-api_path=\"/songs/386897\"&gt;(It’s Good) To Be Free&lt;/a&gt;”&lt;/li&gt;\n&lt;li&gt;“&lt;a href=\"https://genius.com/Oasis-half-the-world-away-lyrics\" rel=\"noopener\" data-api_path=\"/songs/353524\"&gt;Half the World Away&lt;/a&gt;”&lt;/li&gt;\n&lt;li&gt;“&lt;a href=\"https://genius.com/Oasis-slide-away-lyrics\" rel=\"noopener\" data-api_path=\"/songs/286019\"&gt;Slide Away&lt;/a&gt;”&lt;/li&gt;\n&lt;/ol&gt;",
+          "markdown": "1. \"Whatever\"\n2. \"[(It&#39;s Good) To Be Free](https://genius.com/Oasis-its-good-to-be-free-lyrics)\"\n3. \"[Half the World Away](https://genius.com/Oasis-half-the-world-away-lyrics)\"\n4. \"[Slide Away](https://genius.com/Oasis-slide-away-lyrics)\""
+        },
+        "created_at": 1512402903,
+        "editorial_state": "normal",
+        "has_voters": false,
+        "id": 64485,
+        "votes_total": 0,
+        "current_user_metadata": {
+          "permissions": [
+
+          ],
+          "excluded_permissions": [
+            "vote",
+            "edit",
+            "destroy"
+          ],
+          "interactions": {
+            "vote": null
+          }
+        },
+        "answer_source": null,
+        "authors": [
+          {
+            "_type": "user_attribution",
+            "attribution": 1.0,
+            "pinned_role": null,
+            "user": {
+              "_type": "user",
+              "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+              "api_path": "/users/721779",
+              "avatar": {
+                "tiny": {
+                  "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 16,
+                    "height": 16
+                  }
+                },
+                "thumb": {
+                  "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 32,
+                    "height": 32
+                  }
+                },
+                "small": {
+                  "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 100,
+                    "height": 100
+                  }
+                },
+                "medium": {
+                  "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+                  "bounding_box": {
+                    "width": 300,
+                    "height": 400
+                  }
+                }
+              },
+              "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+              "human_readable_role_for_display": "Editor",
+              "id": 721779,
+              "iq": 94191,
+              "is_meme_verified": false,
+              "is_verified": false,
+              "login": "m4ths",
+              "name": "m4ths",
+              "role_for_display": "editor",
+              "url": "https://genius.com/m4ths",
+              "current_user_metadata": {
+                "permissions": [
+
+                ],
+                "excluded_permissions": [
+                  "follow"
+                ],
+                "interactions": {
+                  "following": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "author": {
+        "_type": "user",
+        "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+        "api_path": "/users/721779",
+        "avatar": {
+          "tiny": {
+            "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 16,
+              "height": 16
+            }
+          },
+          "thumb": {
+            "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 32,
+              "height": 32
+            }
+          },
+          "small": {
+            "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 100,
+              "height": 100
+            }
+          },
+          "medium": {
+            "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+            "bounding_box": {
+              "width": 300,
+              "height": 400
+            }
+          }
+        },
+        "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+        "human_readable_role_for_display": "Editor",
+        "id": 721779,
+        "iq": 94191,
+        "is_meme_verified": false,
+        "is_verified": false,
+        "login": "m4ths",
+        "name": "m4ths",
+        "role_for_display": "editor",
+        "url": "https://genius.com/m4ths",
+        "current_user_metadata": {
+          "permissions": [
+
+          ],
+          "excluded_permissions": [
+            "follow"
+          ],
+          "interactions": {
+            "following": false
+          }
+        }
+      }
+    }
+  ],
+  "preloaded_referents": [
+    {
+      "_type": "referent",
+      "annotator_id": 721779,
+      "annotator_login": "m4ths",
+      "api_path": "/referents/7168816",
+      "classification": "accepted",
+      "fragment": "I’m free to be whatever I\n Whatever I choose and I’ll sing the blues if I want",
+      "id": 7168816,
+      "ios_app_url": "genius://referents/7168816",
+      "is_description": false,
+      "is_image": false,
+      "path": "/7168816/Oasis-whatever/Im-free-to-be-whatever-i-whatever-i-choose-and-ill-sing-the-blues-if-i-want",
+      "range": {
+        "content": "I&#39;m free to be whatever I\n Whatever I choose and I&#39;ll sing the blues if I want"
+      },
+      "song_id": 119645,
+      "url": "https://genius.com/7168816/Oasis-whatever/Im-free-to-be-whatever-i-whatever-i-choose-and-ill-sing-the-blues-if-i-want",
+      "verified_annotator_ids": [
+
+      ],
+      "current_user_metadata": {
+        "permissions": [
+
+        ],
+        "excluded_permissions": [
+          "add_pinned_annotation_to",
+          "add_community_annotation_to"
+        ],
+        "relationships": {
+
+        }
+      },
+      "tracking_paths": {
+        "aggregate": "/7168816/Oasis-whatever/Im-free-to-be-whatever-i-whatever-i-choose-and-ill-sing-the-blues-if-i-want",
+        "concurrent": "/Oasis-whatever-lyrics"
+      },
+      "twitter_share_message": "“The story goes that Noel wrote this song before joining Oasis. These lines are addressing his fa…” —@Genius",
+      "annotatable": {
+        "_type": "song",
+        "api_path": "/songs/119645",
+        "client_timestamps": {
+          "updated_by_human_at": 1550939924,
+          "lyrics_updated_at": 1550949354
+        },
+        "context": "Oasis",
+        "id": 119645,
+        "image_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+        "link_title": "Whatever by Oasis",
+        "title": "Whatever",
+        "type": "Song",
+        "url": "https://genius.com/Oasis-whatever-lyrics"
+      },
+      "annotations": [
+        {
+          "_type": "annotation",
+          "api_path": "/annotations/7168816",
+          "being_created": false,
+          "body": {
+            "html": "&lt;p&gt;The story goes that Noel wrote this song before joining Oasis. These lines are addressing his father, who wanted Noel to follow him into working alongside him as a builder, but Noel did not want to. He wanted to join his brother Liam’s band, “The Rain.”&lt;/p&gt;",
+            "plain": "The story goes that Noel wrote this song before joining Oasis. These lines are addressing his father, who wanted Noel to follow him into working alongside him as a builder, but Noel did not want to. He wanted to join his brother Liam’s band, “The Rain.”",
+            "markdown": "The story goes that Noel wrote this song before joining Oasis. These lines are addressing his father, who wanted Noel to follow him into working alongside him as a builder, but Noel did not want to. He wanted to join his brother Liam&#39;s band, \"The Rain.\""
+          },
+          "comment_count": 0,
+          "community": true,
+          "created_at": 1435259547,
+          "custom_preview": null,
+          "deleted": false,
+          "embed_content": "&lt;blockquote class=&#39;rg_standalone_container&#39; data-src=&#39;//genius.com/annotations/7168816/standalone_embed&#39;&gt;&lt;a href=&#39;https://genius.com/7168816/Oasis-whatever/Im-free-to-be-whatever-i-whatever-i-choose-and-ill-sing-the-blues-if-i-want&#39;&gt;I&amp;#39;m free to be whatever I&amp;lt;br&amp;gt; Whatever I choose and I&amp;#39;ll sing the blues if I want&lt;/a&gt;&lt;br&gt;&lt;a href=&#39;https://genius.com/Oasis-whatever-lyrics&#39;&gt;&amp;#8213; Oasis – Whatever&lt;/a&gt;&lt;/blockquote&gt;&lt;script async crossorigin src=&#39;//genius.com/annotations/load_standalone_embeds.js&#39;&gt;&lt;/script&gt;",
+          "has_voters": true,
+          "id": 7168816,
+          "needs_exegesis": false,
+          "pinned": false,
+          "proposed_edit_count": 0,
+          "pyongs_count": null,
+          "referent_id": 7168816,
+          "share_url": "https://genius.com/7168816",
+          "source": null,
+          "state": "accepted",
+          "twitter_share_message": "“The story goes that Noel wrote this song before joining Oasis. These lines are addressing his father, wh…” —@Genius",
+          "url": "https://genius.com/7168816/Oasis-whatever/Im-free-to-be-whatever-i-whatever-i-choose-and-ill-sing-the-blues-if-i-want",
+          "verified": false,
+          "votes_total": 22,
+          "current_user_metadata": {
+            "permissions": [
+              "create_comment"
+            ],
+            "excluded_permissions": [
+              "vote",
+              "edit",
+              "cosign",
+              "uncosign",
+              "destroy",
+              "accept",
+              "reject",
+              "see_unreviewed",
+              "clear_votes",
+              "propose_edit_to",
+              "pin_to_profile",
+              "unpin_from_profile",
+              "update_source",
+              "edit_custom_preview"
+            ],
+            "interactions": {
+              "cosign": false,
+              "pyong": false,
+              "vote": null
+            },
+            "iq_by_action": {
+
+            }
+          },
+          "accepted_by": null,
+          "authors": [
+            {
+              "_type": "user_attribution",
+              "attribution": 1.0,
+              "pinned_role": null,
+              "user": {
+                "_type": "user",
+                "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+                "api_path": "/users/721779",
+                "avatar": {
+                  "tiny": {
+                    "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+                    "bounding_box": {
+                      "width": 16,
+                      "height": 16
+                    }
+                  },
+                  "thumb": {
+                    "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+                    "bounding_box": {
+                      "width": 32,
+                      "height": 32
+                    }
+                  },
+                  "small": {
+                    "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+                    "bounding_box": {
+                      "width": 100,
+                      "height": 100
+                    }
+                  },
+                  "medium": {
+                    "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+                    "bounding_box": {
+                      "width": 300,
+                      "height": 400
+                    }
+                  }
+                },
+                "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+                "human_readable_role_for_display": "Editor",
+                "id": 721779,
+                "iq": 94191,
+                "is_meme_verified": false,
+                "is_verified": false,
+                "login": "m4ths",
+                "name": "m4ths",
+                "role_for_display": "editor",
+                "url": "https://genius.com/m4ths",
+                "current_user_metadata": {
+                  "permissions": [
+
+                  ],
+                  "excluded_permissions": [
+                    "follow"
+                  ],
+                  "interactions": {
+                    "following": false
+                  }
+                }
+              }
+            }
+          ],
+          "cosigned_by": [
+
+          ],
+          "created_by": {
+            "_type": "user",
+            "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+            "api_path": "/users/721779",
+            "avatar": {
+              "tiny": {
+                "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+                "bounding_box": {
+                  "width": 16,
+                  "height": 16
+                }
+              },
+              "thumb": {
+                "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+                "bounding_box": {
+                  "width": 32,
+                  "height": 32
+                }
+              },
+              "small": {
+                "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+                "bounding_box": {
+                  "width": 100,
+                  "height": 100
+                }
+              },
+              "medium": {
+                "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+                "bounding_box": {
+                  "width": 300,
+                  "height": 400
+                }
+              }
+            },
+            "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+            "human_readable_role_for_display": "Editor",
+            "id": 721779,
+            "iq": 94191,
+            "is_meme_verified": false,
+            "is_verified": false,
+            "login": "m4ths",
+            "name": "m4ths",
+            "role_for_display": "editor",
+            "url": "https://genius.com/m4ths",
+            "current_user_metadata": {
+              "permissions": [
+
+              ],
+              "excluded_permissions": [
+                "follow"
+              ],
+              "interactions": {
+                "following": false
+              }
+            }
+          },
+          "rejection_comment": null,
+          "top_comment": null,
+          "verified_by": null
+        }
+      ]
+    }
+  ],
+  "primary_album_tracks": [
+    {
+      "_type": "album_appearance",
+      "number": 1,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/327470",
+        "id": 327470,
+        "lyrics_state": "complete",
+        "path": "/Oasis-supersonic-lyrics",
+        "title": "Supersonic",
+        "url": "https://genius.com/Oasis-supersonic-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 2,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/143250",
+        "id": 143250,
+        "lyrics_state": "complete",
+        "path": "/Oasis-roll-with-it-lyrics",
+        "title": "Roll with It",
+        "url": "https://genius.com/Oasis-roll-with-it-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 3,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/92630",
+        "id": 92630,
+        "lyrics_state": "complete",
+        "path": "/Oasis-live-forever-lyrics",
+        "title": "Live Forever",
+        "url": "https://genius.com/Oasis-live-forever-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 4,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/76654",
+        "id": 76654,
+        "lyrics_state": "complete",
+        "path": "/Oasis-wonderwall-lyrics",
+        "title": "Wonderwall",
+        "url": "https://genius.com/Oasis-wonderwall-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 5,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/338599",
+        "id": 338599,
+        "lyrics_state": "complete",
+        "path": "/Oasis-stop-crying-your-heart-out-lyrics",
+        "title": "Stop Crying Your Heart Out",
+        "url": "https://genius.com/Oasis-stop-crying-your-heart-out-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 6,
+      "song": {
+        "_type": "song",
+        "api_path": "/songs/351933",
+        "id": 351933,
+        "lyrics_state": "complete",
+        "path": "/Oasis-cigarettes-and-alcohol-lyrics",
+        "title": "Cigarettes &amp; Alcohol",
+        "url": "https://genius.com/Oasis-cigarettes-and-alcohol-lyrics"
+      }
+    },
+    {
+      "_type": "album_appearance",
+      "number": 7,
+      "song": {
+        "_type": "song",
+        "\"api_path&qquot;:\"/songs/386924\",\"id\":386924,\"lyrics_state\":\"complete\",\"path\":\"/Oasis-songbird-lyrics\",\"title\":\"Songbird\",\"url\":\"https": null, //genius.com/Oasis-songbird-lyrics"}},{"_type":"album_appearance","number":8,"song":{"_type":"song","api_path":"/songs/106380","id":106380,"lyrics_state":"complete","path":"/Oasis-dont-look-back-in-anger-lyrics","title":"Don’tLookBackinAnger","url":"https: //genius.com/Oasis-dont-look-back-in-anger-lyrics"}},{"_type":"album_appearance","number":9,"song":{"_type":"song","api_path":"/songs/327543","id":327543,"lyrics_state":"complete","path":"/Oasis-the-hindu-times-lyrics","title":"TheHinduTimes","url":"https: //genius.com/Oasis-the-hindu-times-lyrics"}},{"_type":"album_appearance","number":10,"song":{"_type":"song","api_path":"/songs/230086","id":230086,"lyrics_state":"complete","path":"/Oasis-stand-by-me-lyrics","title":"StandByMe","url":"https: //genius.com/Oasis-stand-by-me-lyrics"}},{"_type":"album_appearance","number":11,"song":{"_type":"song","api_path":"/songs/1790968","id":1790968,"lyrics_state":"complete","path":"/Oasis-lord-dont-slow-me-down-lyrics","title":"LordDon’tSlowMeDown","url":"https: //genius.com/Oasis-lord-dont-slow-me-down-lyrics"}},{"_type":"album_appearance","number":12,"song":{"_type":"song","api_path":"/songs/107790","id":107790,"lyrics_state":"complete","path":"/Oasis-shakermaker-lyrics","title":"Shakermaker","url":"https: //genius.com/Oasis-shakermaker-lyrics"}},{"_type":"album_appearance","number":13,"song":{"_type":"song","api_path":"/songs/327570","id":327570,"lyrics_state":"complete","path":"/Oasis-all-around-the-world-lyrics","title":"AllAroundtheWorld","url":"https: //genius.com/Oasis-all-around-the-world-lyrics"}},{"_type":"album_appearance","number":14,"song":{"_type":"song","api_path":"/songs/118473","id":118473,"lyrics_state":"complete","path":"/Oasis-some-might-say-lyrics","title":"SomeMightSay","url":"https: //genius.com/Oasis-some-might-say-lyrics"}},{"_type":"album_appearance","number":15,"song":{"_type":"song","api_path":"/songs/92634","id":92634,"lyrics_state":"complete","path":"/Oasis-the-importance-of-being-idle-lyrics","title":"TheImportanceofBeingIdle","url":"https: //genius.com/Oasis-the-importance-of-being-idle-lyrics"}},{"_type":"album_appearance","number":16,"song":{"_type":"song","api_path":"/songs/213826","id":213826,"lyrics_state":"complete","path":"/Oasis-dyou-know-what-i-mean-lyrics","title":"D’YouKnowWhatIMean?","url":"https: //genius.com/Oasis-dyou-know-what-i-mean-lyrics"}},{"_type":"album_appearance","number":17,"song":{"_type":"song","api_path":"/songs/92633","id":92633,"lyrics_state":"complete","path":"/Oasis-lyla-lyrics","title":"Lyla","url":"https: //genius.com/Oasis-lyla-lyrics"}},{"_type":"album_appearance","number":18,"song":{"_type":"song","api_path":"/songs/386976","id":386976,"lyrics_state":"complete","path":"/Oasis-let-there-be-love-lyrics","title":"LetThereBeLove","url":"https: //genius.com/Oasis-let-there-be-love-lyrics"}},{"_type":"album_appearance","number":19,"song":{"_type":"song","api_path":"/songs/385626","id":385626,"lyrics_state":"complete","path":"/Oasis-go-let-it-out-lyrics","title":"GoLetItOut","url":"https: //genius.com/Oasis-go-let-it-out-lyrics"}},{"_type":"album_appearance","number":20,"song":{"_type":"song","api_path":"/songs/119647","id":119647,"lyrics_state":"complete","path":"/Oasis-who-feels-love-lyrics","title":"WhoFeelsLove?","url":"https: //genius.com/Oasis-who-feels-love-lyrics"}},{"_type":"album_appearance","number":21,"song":{"_type":"song","api_path":"/songs/92627","id":92627,"lyrics_state":"complete","path":"/Oasis-little-by-little-lyrics","title":"LittlebyLittle","url":"https: //genius.com/Oasis-little-by-little-lyrics"}},{"_type":"album_appearance","number":22,"song":{"_type":"song","api_path":"/songs/119320","id":119320,"lyrics_state":"complete","path":"/Oasis-the-shock-of-the-lightning-lyrics","title":"TheShockoftheLightning","url":"https: //genius.com/Oasis-the-shock-of-the-lightning-lyrics"}},{"_type":"album_appearance","number":23,"song":{"_type":"song","api_path":"/songs/386930","id":386930,"lyrics_state":"complete","path":"/Oasis-she-is-love-lyrics","title":"SheIsLove","url":"https: //genius.com/Oasis-she-is-love-lyrics"}},{"_type":"album_appearance","number":24,"song":{"_type":"song","api_path":"/songs/119645","id":119645,"lyrics_state":"complete","path":"/Oasis-whatever-lyrics","title":"Whatever","url":"https: //genius.com/Oasis-whatever-lyrics"}},{"_type":"album_appearance","number":25,"song":{"_type":"song","api_path":"/songs/119436","id":119436,"lyrics_state":"complete","path":"/Oasis-im-outta-time-lyrics","title":"I’mOuttaTime","url":"https: //genius.com/Oasis-im-outta-time-lyrics"}},{"_type":"album_appearance","number":26,"song":{"_type":"song","api_path":"/songs/119440","id":119440,"lyrics_state":"complete","path":"/Oasis-falling-down-lyrics","title":"FallingDown","url":"https: //genius.com/Oasis-falling-down-lyrics"}},{"_type":"album_appearance","number":27,"song":{"_type":"song","api_path":"/songs/385630","id":385630,"lyrics_state":"complete","path":"/Oasis-sunday-morning-call-lyrics","title":"SundayMorningCall","url":"https: //genius.com/Oasis-sunday-morning-call-lyrics"}},{"_type":"album_appearance","number":null,"song":{"_type":"song","api_path":"/songs/1205226","id":1205226,"lyrics_state":"complete","path":"/Oasis-time-flies-19942009-album-art-and-tracklist-annotated","title":"TimeFlies...1994–2009-AlbumArt&amp;Tracklist","url":"https: //genius.com/Oasis-time-flies-19942009-album-art-and-tracklist-annotated"}}],"recirculated_content":[],"song":{"_type":"song","annotation_count":5,"api_path":"/songs/119645","apple_music_id":"373957889","apple_music_player_url":"https: //genius.com/songs/119645/apple_music_player","comment_count":1,"custom_header_image_url":"https: //images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg","custom_song_art_image_url":"https: //images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg","description":{"html":"&lt;p&gt;“Whatever”wasreleasedasasingleafterthereleaseof&lt;ahref=\"https://genius.com/albums/Oasis/Definitely-maybe\" rel=\"noopener\" data-api_path=\"/albums/22545\"&gt;&lt;em&gt;Definitely Maybe&lt;/em&gt;&lt;/a&gt; and was only included as a bonus track on the Mexican edition of &lt;em&gt;Definitely Maybe&lt;/em&gt;. After Oasis split up it was released to a broader audience, when included on the single compilation album &lt;em&gt;&lt;a href=\"https://genius.com/albums/Oasis/Time-flies-19942009\" rel=\"noopener\" data-api_path=\"/albums/122913\"&gt;Time Flies… 1994-2009&lt;/a&gt;&lt;/em&gt;. The song is notable for its use of an orchestra. However, that was also what led to the song not being included on &lt;em&gt;Definitely Maybe&lt;/em&gt;. At the time of recording the album, the band could not afford to hire an orchestra for the song.&lt;/p&gt;\n\n&lt;p&gt;The song came under fire for allegedly ripping off Neil Innes&#39; song “How Sweet to Be an Idiot.” They later settled a plagiarism lawsuit and Innes received a songwriting credit.&lt;/p&gt;\n\n&lt;p&gt;The song was often performed live, ending with the lyrics to “&lt;a href=\"https://genius.com/The-beatles-octopuss-garden-lyrics\" rel=\"noopener\" data-api_path=\"/songs/107905\"&gt;Octopus’s Garden&lt;/a&gt;.”&lt;/p&gt;",
+        "markdown": "\"Whatever\" was released as a single after the release of [*Definitely Maybe*](http://genius.com/albums/Oasis/Definitely-maybe) and was only included as a bonus track on the Mexican edition of *Definitely Maybe*. After Oasis split up it was released to a broader audience, when included on the single compilation album *[Time Flies... 1994-2009](http://genius.com/albums/Oasis/Time-flies-19942009)*. The song is notable for its use of an orchestra. However, that was also what led to the song not being included on *Definitely Maybe*. At the time of recording the album, the band could not afford to hire an orchestra for the song.\n\nThe song came under fire for allegedly ripping off Neil Innes&#39; song \"How Sweet to Be an Idiot.\" They later settled a plagiarism lawsuit and Innes received a songwriting credit.\n\nThe song was often performed live, ending with the lyrics to \"[Octopus&#39;s Garden](http://genius.com/The-beatles-octopuss-garden-lyrics).\""
+      },
+      "description_preview": "“Whatever” was released as a single after the release of Definitely Maybe and was only included as a bonus track on the Mexican edition of Definitely Maybe. After Oasis split up it was released to a broader audience, when included on the single compilation album Time Flies… 1994-2009. The song is notable for its use of an orchestra. However, that was also what led to the song not being included on Definitely Maybe. At the time of recording the album, the band could not afford to hire an orchestra for the song.\n\nThe song came under fire for allegedly ripping off Neil Innes&#39; song “How Sweet to Be an Idiot.” They later settled a plagiarism lawsuit and Innes received a songwriting credit.\n\nThe song was often performed live, ending with the lyrics to “Octopus’s Garden.”",
+      "embed_content": "&lt;div id=&#39;rg_embed_link_119645&#39; class=&#39;rg_embed_link&#39; data-song-id=&#39;119645&#39;&gt;Read &lt;a href=&#39;https://genius.com/Oasis-whatever-lyrics&#39;&gt;“Whatever” by Oasis&lt;/a&gt; on Genius&lt;/div&gt; &lt;script crossorigin src=&#39;//genius.com/songs/119645/embed.js&#39;&gt;&lt;/script&gt;",
+      "featured_video": true,
+      "full_title": "Whatever by Oasis",
+      "header_image_thumbnail_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+      "header_image_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+      "hidden": false,
+      "id": 119645,
+      "instrumental": false,
+      "is_music": true,
+      "lyrics_owner_id": 61411,
+      "lyrics_state": "complete",
+      "lyrics_updated_at": 1550949354,
+      "path": "/Oasis-whatever-lyrics",
+      "pending_lyrics_edits_count": 0,
+      "published": false,
+      "pusher_channel": "song-119645",
+      "pyongs_count": 10,
+      "recording_location": "Rockfield Studios",
+      "release_date": "1994-12-18",
+      "release_date_components": {
+        "year": 1994,
+        "month": 12,
+        "day": 18
+      },
+      "share_url": "https://genius.com/Oasis-whatever-lyrics",
+      "song_art_image_thumbnail_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+      "song_art_image_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+      "soundcloud_url": null,
+      "spotify_uuid": "6hqu7f96UPVAKCqiex5sgi",
+      "stats": {
+        "accepted_annotations": 3,
+        "contributors": 12,
+        "iq_earners": 12,
+        "transcribers": 2,
+        "unreviewed_annotations": 1,
+        "verified_annotations": 0,
+        "hot": false,
+        "pageviews": 30029
+      },
+      "title": "Whatever",
+      "title_with_featured": "Whatever",
+      "tracking_data": [
+        {
+          "key": "Song ID",
+          "value": 119645
+        },
+        {
+          "key": "Title",
+          "value": "Whatever"
+        },
+        {
+          "key": "Primary Artist",
+          "value": "Oasis"
+        },
+        {
+          "key": "Primary Artist ID",
+          "value": 21100
+        },
+        {
+          "key": "Primary Album",
+          "value": "Time Flies... 1994–2009"
+        },
+        {
+          "key": "Primary Album ID",
+          "value": 122913
+        },
+        {
+          "key": "Tag",
+          "value": "rock"
+        },
+        {
+          "key": "Primary Tag",
+          "value": "rock"
+        },
+        {
+          "key": "Primary Tag ID",
+          "value": 567
+        },
+        {
+          "key": "Music?",
+          "value": true
+        },
+        {
+          "key": "Annotatable Type",
+          "value": "Song"
+        },
+        {
+          "key": "Annotatable ID",
+          "value": 119645
+        },
+        {
+          "key": "featured_video",
+          "value": true
+        },
+        {
+          "key": "cohort_ids",
+          "value": [
+
+          ]
+        },
+        {
+          "key": "has_verified_callout",
+          "value": false
+        },
+        {
+          "key": "has_featured_annotation",
+          "value": true
+        },
+        {
+          "key": "created_at",
+          "value": "2013-02-20T23:47:19Z"
+        },
+        {
+          "key": "created_month",
+          "value": "2013-02-01"
+        },
+        {
+          "key": "created_year",
+          "value": 2013
+        },
+        {
+          "key": "song_tier",
+          "value": "D"
+        },
+        {
+          "key": "Has Recirculated Articles",
+          "value": false
+        },
+        {
+          "key": "Lyrics Language",
+          "value": "en"
+        },
+        {
+          "key": "Has Song Story",
+          "value": false
+        },
+        {
+          "key": "Song Story ID",
+          "value": null
+        },
+        {
+          "key": "Has Apple Match",
+          "value": true
+        }
+      ],
+      "tracking_paths": {
+        "aggregate": "/Oasis-whatever-lyrics",
+        "concurrent": "/Oasis-whatever-lyrics"
+      },
+      "twitter_share_message": "Oasis – Whatever @oasis https://genius.com/Oasis-whatever-lyrics",
+      "twitter_share_message_without_url": "Oasis – Whatever @oasis",
+      "updated_by_human_at": 1550939924,
+      "url": "https://genius.com/Oasis-whatever-lyrics",
+      "viewable_by_roles": [
+
+      ],
+      "vttp_id": null,
+      "youtube_start": null,
+      "youtube_url": "http://www.youtube.com/watch?v=9gWMjHnBj-A",
+      "current_user_metadata": {
+        "permissions": [
+          "see_pageviews",
+          "view_apple_music_player",
+          "create_comment",
+          "view_song_story_gallery"
+        ],
+        "excluded_permissions": [
+          "follow",
+          "award_transcription_iq",
+          "remove_transcription_iq",
+          "pyong",
+          "edit_lyrics",
+          "view_annotation_engagement_data",
+          "publish",
+          "unpublish",
+          "edit_spotify_details",
+          "hide",
+          "unhide",
+          "toggle_featured_video",
+          "add_pinned_annotation_to",
+          "add_community_annotation_to",
+          "destroy",
+          "mark_as_not_spam",
+          "edit_spotify_annotations_for",
+          "verify_lyrics",
+          "unverify_lyrics",
+          "edit_anything",
+          "edit_any_media",
+          "edit",
+          "rename",
+          "edit_tags",
+          "watch_fact_track",
+          "reindex",
+          "view_lyrics_synchronization",
+          "enable_media",
+          "disable_media",
+          "edit_lyrics_or_annotation_brackets",
+          "see_editorial_indicators",
+          "view_attribution_visualization",
+          "edit_annotation_brackets",
+          "preview_lyrics_for_export",
+          "hide_apple_player",
+          "unhide_apple_player",
+          "trigger_apple_match",
+          "mark_lyrics_evaluation_as_approved",
+          "mark_lyrics_evaluation_as_staff_approved",
+          "mark_lyrics_evaluation_as_unapproved",
+          "mark_lyrics_evaluation_as_un_staff_approved",
+          "view_transcriber_media_player",
+          "override_apple_match",
+          "edit_youtube_url",
+          "edit_soundcloud_url",
+          "edit_spotify_uuid",
+          "edit_vevo_url",
+          "moderate_annotations",
+          "create_annotation",
+          "see_short_id",
+          "manage_chart_item",
+          "create_tag",
+          "propose_lyrics_edit",
+          "moderate_lyrics_edit_proposals"
+        ],
+        "interactions": {
+          "pyong": false,
+          "following": false
+        },
+        "relationships": {
+
+        },
+        "iq_by_action": {
+
+        }
+      },
+      "album": {
+        "_type": "album",
+        "api_path": "/albums/122913",
+        "cover_art_thumbnail_url": "https://images.genius.com/bd8fc74bc095f89df2b6ad6ef55e5c7b.300x300x1.jpg",
+        "cover_art_url": "https://images.genius.com/bd8fc74bc095f89df2b6ad6ef55e5c7b.1000x1000x1.jpg",
+        "full_title": "Time Flies... 1994–2009 by Oasis",
+        "id": 122913,
+        "name": "Time Flies... 1994–2009",
+        "name_with_artist": "Time Flies... 1994–2009 (artist: Oasis)",
+        "release_date_components": {
+          "year": 2010,
+          "month": null,
+          "day": null
+        },
+        "url": "https://genius.com/albums/Oasis/Time-flies-19942009",
+        "artist": {
+          "_type": "artist",
+          "api_path": "/artists/21100",
+          "header_image_url": "https://images.genius.com/03628574fa075d2be67ace5f5a7b80f6.300x139x1.png",
+          "id": 21100,
+          "image_url": "https://images.genius.com/5b44be44ae2cc44dd08db4e8e07b18bb.800x800x1.jpg",
+          "index_character": "o",
+          "is_meme_verified": false,
+          "is_verified": true,
+          "name": "Oasis",
+          "slug": "Oasis",
+          "url": "https://genius.com/artists/Oasis",
+          "iq": 104
+        }
+      },
+      "albums": [
+        {
+          "_type": "album",
+          "api_path": "/albums/122913",
+          "cover_art_thumbnail_url": "https://images.genius.com/bd8fc74bc095f89df2b6ad6ef55e5c7b.300x300x1.jpg",
+          "cover_art_url": "https://images.genius.com/bd8fc74bc095f89df2b6ad6ef55e5c7b.1000x1000x1.jpg",
+          "full_title": "Time Flies... 1994–2009 by Oasis",
+          "id": 122913,
+          "name": "Time Flies... 1994–2009",
+          "name_with_artist": "Time Flies... 1994–2009 (artist: Oasis)",
+          "release_date_components": {
+            "year": 2010,
+            "month": null,
+            "day": null
+          },
+          "url": "https://genius.com/albums/Oasis/Time-flies-19942009",
+          "artist": {
+            "_type": "artist",
+            "api_path": "/artists/21100",
+            "header_image_url": "https://images.genius.com/03628574fa075d2be67ace5f5a7b80f6.300x139x1.png",
+            "id": 21100,
+            "image_url": "https://images.genius.com/5b44be44ae2cc44dd08db4e8e07b18bb.800x800x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Oasis",
+            "slug": "Oasis",
+            "url": "https://genius.com/artists/Oasis",
+            "iq": 104
+          }
+        },
+        {
+          "_type": "album",
+          "api_path": "/albums/123434",
+          "cover_art_thumbnail_url": "https://images.genius.com/ce22c7663669ed368a01165eafa9717c.300x300x1.jpg",
+          "cover_art_url": "https://images.genius.com/ce22c7663669ed368a01165eafa9717c.1000x1000x1.jpg",
+          "full_title": "Miscellaneous by Oasis",
+          "id": 123434,
+          "name": "Miscellaneous",
+          "name_with_artist": "Miscellaneous (artist: Oasis)",
+          "release_date_components": null,
+          "url": "https://genius.com/albums/Oasis/Miscellaneous",
+          "artist": {
+            "_type": "artist",
+            "api_path": "/artists/21100",
+            "header_image_url": "https://images.genius.com/03628574fa075d2be67ace5f5a7b80f6.300x139x1.png",
+            "id": 21100,
+            "image_url": "https://images.genius.com/5b44be44ae2cc44dd08db4e8e07b18bb.800x800x1.jpg",
+            "index_character": "o",
+            "is_meme_verified": false,
+            "is_verified": true,
+            "name": "Oasis",
+            "slug": "Oasis",
+            "url": "https://genius.com/artists/Oasis",
+            "iq": 104
+          }
+        }
+      ],
+      "custom_performances": [
+        {
+          "label": "Lyrics By",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/69347",
+              "header_image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "id": 69347,
+              "image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "index_character": "n",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Noel Gallagher",
+              "slug": "Noel-gallagher",
+              "url": "https://genius.com/artists/Noel-gallagher"
+            }
+          ]
+        },
+        {
+          "label": "Bass By",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/1018857",
+              "header_image_url": "https://images.genius.com/1f9d0d743a83d3f720c78be84798e7b9.1000x1000x1.png",
+              "id": 1018857,
+              "image_url": "https://images.genius.com/e9731bbb190fe22898eaee422cda4be0.291x291x1.jpg",
+              "index_character": "p",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Paul “Guigsy” McGuigan",
+              "slug": "Paul-guigsy-mcguigan",
+              "url": "https://genius.com/artists/Paul-guigsy-mcguigan"
+            }
+          ]
+        },
+        {
+          "label": "Guitar By",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/651080",
+              "header_image_url": "https://images.genius.com/d4be0341068269ef54c271b0eb321d32.250x300x1.jpg",
+              "id": 651080,
+              "image_url": "https://images.genius.com/d4be0341068269ef54c271b0eb321d32.250x300x1.jpg",
+              "index_character": "p",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Paul “Bonehead” Arthurs",
+              "slug": "Paul-bonehead-arthurs",
+              "url": "https://genius.com/artists/Paul-bonehead-arthurs"
+            }
+          ]
+        },
+        {
+          "label": "Drums",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/654229",
+              "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+              "id": 654229,
+              "image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+              "index_character": "t",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Tony McCarroll",
+              "slug": "Tony-mccarroll",
+              "url": "https://genius.com/artists/Tony-mccarroll"
+            }
+          ]
+        },
+        {
+          "label": "Lead guitar",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/69347",
+              "header_image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "id": 69347,
+              "image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "index_character": "n",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Noel Gallagher",
+              "slug": "Noel-gallagher",
+              "url": "https://genius.com/artists/Noel-gallagher"
+            }
+          ]
+        },
+        {
+          "label": "Vocals",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/56368",
+              "header_image_url": "https://images.genius.com/003933251eeb2db3a3f026188bcae41a.1000x635x1.jpg",
+              "id": 56368,
+              "image_url": "https://images.genius.com/3774ebf5a05c01b5368ddb224e572a05.635x635x1.jpg",
+              "index_character": "l",
+              "is_meme_verified": false,
+              "is_verified": true,
+              "name": "Liam Gallagher",
+              "slug": "Liam-gallagher",
+              "url": "https://genius.com/artists/Liam-gallagher",
+              "iq": 100
+            }
+          ]
+        },
+        {
+          "label": "Strings Arranged By",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/910554",
+              "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+              "id": 910554,
+              "image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+              "index_character": "n",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Nick Ingman",
+              "slug": "Nick-ingman",
+              "url": "https://genius.com/artists/Nick-ingman"
+            },
+            {
+              "_type": "artist",
+              "api_path": "/artists/69347",
+              "header_image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "id": 69347,
+              "image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+              "index_character": "n",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "Noel Gallagher",
+              "slug": "Noel-gallagher",
+              "url": "https://genius.com/artists/Noel-gallagher"
+            }
+          ]
+        },
+        {
+          "label": "Strings",
+          "artists": [
+            {
+              "_type": "artist",
+              "api_path": "/artists/650368",
+              "header_image_url": "https://images.genius.com/f8fe9d3ec9767914f367d0bd288affdf.1000x1000x1.jpg",
+              "id": 650368,
+              "image_url": "https://images.genius.com/f8fe9d3ec9767914f367d0bd288affdf.1000x1000x1.jpg",
+              "index_character": "l",
+              "is_meme_verified": false,
+              "is_verified": false,
+              "name": "London Session Orchestra",
+              "slug": "London-session-orchestra",
+              "url": "https://genius.com/artists/London-session-orchestra"
+            }
+          ]
+        }
+      ],
+      "description_annotation": {
+        "_type": "referent",
+        "annotator_id": 61411,
+        "annotator_login": "pizza-n-mandolino",
+        "api_path": "/referents/3751521",
+        "classification": "accepted",
+        "fragment": "Whatever",
+        "id": 3751521,
+        "ios_app_url": "genius://referents/3751521",
+        "is_description": true,
+        "is_image": false,
+        "path": "/3751521/Oasis-whatever/Whatever",
+        "range": {
+          "content": "Whatever"
+        },
+        "song_id": 119645,
+        "url": "https://genius.com/3751521/Oasis-whatever/Whatever",
+        "verified_annotator_ids": [
+
+        ],
+        "current_user_metadata": {
+          "permissions": [
+
+          ],
+          "excluded_permissions": [
+            "add_pinned_annotation_to",
+            "add_community_annotation_to"
+          ],
+          "relationships": {
+
+          }
+        },
+        "tracking_paths": {
+          "aggregate": "/3751521/Oasis-whatever/Whatever",
+          "concurrent": "/Oasis-whatever-lyrics"
+        },
+        "twitter_share_message": "““Whatever” was released as a single after the release of Definitely Maybe and was only included …” —@Genius",
+        "annotatable": {
+          "_type": "song",
+          "api_path": "/songs/119645",
+          "client_timestamps": {
+            "updated_by_human_at": 1550939924,
+            "lyrics_updated_at": 1550949354
+          },
+          "context": "Oasis",
+          "id": 119645,
+          "image_url": "https://images.rapgenius.com/95100343903a9ea9b25045eca7749469.200x200x1.jpg",
+          "link_title": "Whatever by Oasis",
+          "title": "Whatever",
+          "type": "Song",
+          "url": "https://genius.com/Oasis-whatever-lyrics"
+        },
+        "annotations": [
+          {
+            "_type": "annotation",
+            "api_path": "/annotations/3751521",
+            "being_created": false,
+            "body": {
+              "html": "&lt;p&gt;“Whatever” was released as a single after the release of &lt;a href=\"https://genius.com/albums/Oasis/Definitely-maybe\" rel=\"noopener\" data-api_path=\"/albums/22545\"&gt;&lt;em&gt;Definitely Maybe&lt;/em&gt;&lt;/a&gt; and was only included as a bonus track on the Mexican edition of &lt;em&gt;Definitely Maybe&lt;/em&gt;. After Oasis split up it was released to a broader audience, when included on the single compilation album &lt;em&gt;&lt;a href=\"https://genius.com/albums/Oasis/Time-flies-19942009\" rel=\"noopener\" data-api_path=\"/albums/122913\"&gt;Time Flies… 1994-2009&lt;/a&gt;&lt;/em&gt;. The song is notable for its use of an orchestra. However, that was also what led to the song not being included on &lt;em&gt;Definitely Maybe&lt;/em&gt;. At the time of recording the album, the band could not afford to hire an orchestra for the song.&lt;/p&gt;\n\n&lt;p&gt;The song came under fire for allegedly ripping off Neil Innes&#39; song “How Sweet to Be an Idiot.” They later settled a plagiarism lawsuit and Innes received a songwriting credit.&lt;/p&gt;\n\n&lt;p&gt;The song was often performed live, ending with the lyrics to “&lt;a href=\"https://genius.com/The-beatles-octopuss-garden-lyrics\" rel=\"noopener\" data-api_path=\"/songs/107905\"&gt;Octopus’s Garden&lt;/a&gt;.”&lt;/p&gt;",
+              "markdown": "\"Whatever\" was released as a single after the release of [*Definitely Maybe*](http://genius.com/albums/Oasis/Definitely-maybe) and was only included as a bonus track on the Mexican edition of *Definitely Maybe*. After Oasis split up it was released to a broader audience, when included on the single compilation album *[Time Flies... 1994-2009](http://genius.com/albums/Oasis/Time-flies-19942009)*. The song is notable for its use of an orchestra. However, that was also what led to the song not being included on *Definitely Maybe*. At the time of recording the album, the band could not afford to hire an orchestra for the song.\n\nThe song came under fire for allegedly ripping off Neil Innes&#39; song \"How Sweet to Be an Idiot.\" They later settled a plagiarism lawsuit and Innes received a songwriting credit.\n\nThe song was often performed live, ending with the lyrics to \"[Octopus&#39;s Garden](http://genius.com/The-beatles-octopuss-garden-lyrics).\""
+            },
+            "comment_count": 0,
+            "community": true,
+            "created_at": 1361404079,
+            "custom_preview": null,
+            "deleted": false,
+            "embed_content": "&lt;blockquote class=&#39;rg_standalone_container&#39; data-src=&#39;//genius.com/annotations/3751521/standalone_embed&#39;&gt;&lt;a href=&#39;https://genius.com/3751521/Oasis-whatever/Whatever&#39;&gt;Whatever&lt;/a&gt;&lt;br&gt;&lt;a href=&#39;https://genius.com/Oasis-whatever-lyrics&#39;&gt;&amp;#8213; Oasis – Whatever&lt;/a&gt;&lt;/blockquote&gt;&lt;script async crossorigin src=&#39;//genius.com/annotations/load_standalone_embeds.js&#39;&gt;&lt;/script&gt;",
+            "has_voters": true,
+            "id": 3751521,
+            "needs_exegesis": false,
+            "pinned": false,
+            "proposed_edit_count": 0,
+            "pyongs_count": 1,
+            "referent_id": 3751521,
+            "share_url": "https://genius.com/3751521",
+            "source": null,
+            "state": "accepted",
+            "twitter_share_message": "““Whatever” was released as a single after the release of Definitely Maybe and was only included as a bon…” —@Genius",
+            "url": "https://genius.com/3751521/Oasis-whatever/Whatever",
+            "verified": false,
+            "votes_total": 15,
+            "current_user_metadata": {
+              "permissions": [
+                "create_comment"
+              ],
+              "excluded_permissions": [
+                "vote",
+                "edit",
+                "cosign",
+                "uncosign",
+                "destroy",
+                "accept",
+                "reject",
+                "see_unreviewed",
+                "clear_votes",
+                "propose_edit_to",
+                "pin_to_profile",
+                "unpin_from_profile",
+                "update_source",
+                "edit_custom_preview"
+              ],
+              "interactions": {
+                "cosign": false,
+                "pyong": false,
+                "vote": null
+              },
+              "iq_by_action": {
+
+              }
+            },
+            "accepted_by": {
+              "_type": "user",
+              "about_me_summary": "Stove on my waist turn beef to patties",
+              "api_path": "/users/61411",
+              "avatar": {
+                "tiny": {
+                  "url": "https://images.rapgenius.com/avatars/tiny/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 16,
+                    "height": 16
+                  }
+                },
+                "thumb": {
+                  "url": "https://images.rapgenius.com/avatars/thumb/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 32,
+                    "height": 32
+                  }
+                },
+                "small": {
+                  "url": "https://images.rapgenius.com/avatars/small/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 100,
+                    "height": 100
+                  }
+                },
+                "medium": {
+                  "url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 300,
+                    "height": 400
+                  }
+                }
+              },
+              "header_image_url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+              "human_readable_role_for_display": "Contributor",
+              "id": 61411,
+              "iq": 20192,
+              "is_meme_verified": false,
+              "is_verified": false,
+              "login": "pizza-n-mandolino",
+              "name": "pizza-n-mandolino",
+              "role_for_display": "contributor",
+              "url": "https://genius.com/pizza-n-mandolino",
+              "current_user_metadata": {
+                "permissions": [
+
+                ],
+                "excluded_permissions": [
+                  "follow"
+                ],
+                "interactions": {
+                  "following": false
+                }
+              }
+            },
+            "authors": [
+              {
+                "_type": "user_attribution",
+                "attribution": 0.5037037037037038,
+                "pinned_role": null,
+                "user": {
+                  "_type": "user",
+                  "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+                  "api_path": "/users/721779",
+                  "avatar": {
+                    "tiny": {
+                      "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+                      "bounding_box": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    },
+                    "thumb": {
+                      "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+                      "bounding_box": {
+                        "width": 32,
+                        "height": 32
+                      }
+                    },
+                    "small": {
+                      "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+                      "bounding_box": {
+                        "width": 100,
+                        "height": 100
+                      }
+                    },
+                    "medium": {
+                      "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+                      "bounding_box": {
+                        "width": 300,
+                        "height": 400
+                      }
+                    }
+                  },
+                  "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+                  "human_readable_role_for_display": "Editor",
+                  "id": 721779,
+                  "iq": 94191,
+                  "is_meme_verified": false,
+                  "is_verified": false,
+                  "login": "m4ths",
+                  "name": "m4ths",
+                  "role_for_display": "editor",
+                  "url": "https://genius.com/m4ths",
+                  "current_user_metadata": {
+                    "permissions": [
+
+                    ],
+                    "excluded_permissions": [
+                      "follow"
+                    ],
+                    "interactions": {
+                      "following": false
+                    }
+                  }
+                }
+              },
+              {
+                "_type": "user_attribution",
+                "attribution": 0.45925925925925926,
+                "pinned_role": null,
+                "user": {
+                  "_type": "user",
+                  "about_me_summary": "Filmmaker. I made a list of every film I’ve ever seen here.",
+                  "api_path": "/users/46981",
+                  "avatar": {
+                    "tiny": {
+                      "url": "https://images.rapgenius.com/avatars/tiny/a2e3c022d0b2b4b87a17acec38db0d95",
+                      "bounding_box": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    },
+                    "thumb": {
+                      "url": "https://images.rapgenius.com/avatars/thumb/a2e3c022d0b2b4b87a17acec38db0d95",
+                      "bounding_box": {
+                        "width": 32,
+                        "height": 32
+                      }
+                    },
+                    "small": {
+                      "url": "https://images.rapgenius.com/avatars/small/a2e3c022d0b2b4b87a17acec38db0d95",
+                      "bounding_box": {
+                        "width": 100,
+                        "height": 100
+                      }
+                    },
+                    "medium": {
+                      "url": "https://images.rapgenius.com/avatars/medium/a2e3c022d0b2b4b87a17acec38db0d95",
+                      "bounding_box": {
+                        "width": 300,
+                        "height": 400
+                      }
+                    }
+                  },
+                  "header_image_url": "https://images.rapgenius.com/avatars/medium/a2e3c022d0b2b4b87a17acec38db0d95",
+                  "human_readable_role_for_display": "Contributor",
+                  "id": 46981,
+                  "iq": 123174,
+                  "is_meme_verified": false,
+                  "is_verified": false,
+                  "login": "BennySwans",
+                  "name": "BennySwoons",
+                  "role_for_display": "contributor",
+                  "url": "https://genius.com/BennySwans",
+                  "current_user_metadata": {
+                    "permissions": [
+
+                    ],
+                    "excluded_permissions": [
+                      "follow"
+                    ],
+                    "interactions": {
+                      "following": false
+                    }
+                  }
+                }
+              },
+              {
+                "_type": "user_attribution",
+                "attribution": 0.037037037037037035,
+                "pinned_role": null,
+                "user": {
+                  "_type": "user",
+                  "about_me_summary": "Stove on my waist turn beef to patties",
+                  "api_path": "/users/61411",
+                  "avatar": {
+                    "tiny": {
+                      "url": "https://images.rapgenius.com/avatars/tiny/4a55bd0a02ef10e977f288b41f686ce1",
+                      "bounding_box": {
+                        "width": 16,
+                        "height": 16
+                      }
+                    },
+                    "thumb": {
+                      "url": "https://images.rapgenius.com/avatars/thumb/4a55bd0a02ef10e977f288b41f686ce1",
+                      "bounding_box": {
+                        "width": 32,
+                        "height": 32
+                      }
+                    },
+                    "small": {
+                      "url": "https://images.rapgenius.com/avatars/small/4a55bd0a02ef10e977f288b41f686ce1",
+                      "bounding_box": {
+                        "width": 100,
+                        "height": 100
+                      }
+                    },
+                    "medium": {
+                      "url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+                      "bounding_box": {
+                        "width": 300,
+                        "height": 400
+                      }
+                    }
+                  },
+                  "header_image_url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+                  "human_readable_role_for_display": "Contributor",
+                  "id": 61411,
+                  "iq": 20192,
+                  "is_meme_verified": false,
+                  "is_verified": false,
+                  "login": "pizza-n-mandolino",
+                  "name": "pizza-n-mandolino",
+                  "role_for_display": "contributor",
+                  "url": "https://genius.com/pizza-n-mandolino",
+                  "current_user_metadata": {
+                    "permissions": [
+
+                    ],
+                    "excluded_permissions": [
+                      "follow"
+                    ],
+                    "interactions": {
+                      "following": false
+                    }
+                  }
+                }
+              }
+            ],
+            "cosigned_by": [
+
+            ],
+            "created_by": {
+              "_type": "user",
+              "about_me_summary": "Stove on my waist turn beef to patties",
+              "api_path": "/users/61411",
+              "avatar": {
+                "tiny": {
+                  "url": "https://images.rapgenius.com/avatars/tiny/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 16,
+                    "height": 16
+                  }
+                },
+                "thumb": {
+                  "url": "https://images.rapgenius.com/avatars/thumb/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 32,
+                    "height": 32
+                  }
+                },
+                "small": {
+                  "url": "https://images.rapgenius.com/avatars/small/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 100,
+                    "height": 100
+                  }
+                },
+                "medium": {
+                  "url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+                  "bounding_box": {
+                    "width": 300,
+                    "height": 400
+                  }
+                }
+              },
+              "header_image_url": "https://images.rapgenius.com/avatars/medium/4a55bd0a02ef10e977f288b41f686ce1",
+              "human_readable_role_for_display": "Contributor",
+              "id": 61411,
+              "iq": 20192,
+              "is_meme_verified": false,
+              "is_verified": false,
+              "login": "pizza-n-mandolino",
+              "name": "pizza-n-mandolino",
+              "role_for_display": "contributor",
+              "url": "https://genius.com/pizza-n-mandolino",
+              "current_user_metadata": {
+                "permissions": [
+
+                ],
+                "excluded_permissions": [
+                  "follow"
+                ],
+                "interactions": {
+                  "following": false
+                }
+              }
+            },
+            "rejection_comment": null,
+            "top_comment": null,
+            "verified_by": null
+          }
+        ]
+      },
+      "featured_artists": [
+
+      ],
+      "lyrics_marked_complete_by": null,
+      "media": [
+        {
+          "provider": "youtube",
+          "start": 0,
+          "type": "video",
+          "url": "http://www.youtube.com/watch?v=9gWMjHnBj-A"
+        },
+        {
+          "native_uri": "spotify:track:6hqu7f96UPVAKCqiex5sgi",
+          "provider": "spotify",
+          "type": "audio",
+          "url": "https://open.spotify.com/track/6hqu7f96UPVAKCqiex5sgi"
+        }
+      ],
+      "primary_artist": {
+        "_type": "artist",
+        "api_path": "/artists/21100",
+        "header_image_url": "https://images.genius.com/03628574fa075d2be67ace5f5a7b80f6.300x139x1.png",
+        "id": 21100,
+        "image_url": "https://images.genius.com/5b44be44ae2cc44dd08db4e8e07b18bb.800x800x1.jpg",
+        "index_character": "o",
+        "is_meme_verified": false,
+        "is_verified": true,
+        "name": "Oasis",
+        "slug": "Oasis",
+        "url": "https://genius.com/artists/Oasis",
+        "iq": 104
+      },
+      "primary_tag": {
+        "_type": "tag",
+        "id": 567,
+        "name": "Rock",
+        "primary": true,
+        "url": "https://genius.com/tags/rock"
+      },
+      "producer_artists": [
+        {
+          "_type": "artist",
+          "api_path": "/artists/41605",
+          "header_image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+          "id": 41605,
+          "image_url": "https://assets.genius.com/images/default_avatar_300.png?1570135149",
+          "index_character": "o",
+          "is_meme_verified": false,
+          "is_verified": false,
+          "name": "Owen Morris",
+          "slug": "Owen-morris",
+          "url": "https://genius.com/artists/Owen-morris"
+        },
+        {
+          "_type": "artist",
+          "api_path": "/artists/69347",
+          "header_image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+          "id": 69347,
+          "image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+          "index_character": "n",
+          "is_meme_verified": false,
+          "is_verified": false,
+          "name": "Noel Gallagher",
+          "slug": "Noel-gallagher",
+          "url": "https://genius.com/artists/Noel-gallagher"
+        }
+      ],
+      "song_relationships": [
+        {
+          "_type": "song_relationship",
+          "type": "samples",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "sampled_in",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "interpolates",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "interpolated_by",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "cover_of",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "covered_by",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "remix_of",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "remixed_by",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "live_version_of",
+          "songs": [
+
+          ]
+        },
+        {
+          "_type": "song_relationship",
+          "type": "performed_live_as",
+          "songs": [
+
+          ]
+        }
+      ],
+      "tags": [
+        {
+          "_type": "tag",
+          "id": 1623,
+          "name": "UK",
+          "primary": false,
+          "url": "https://genius.com/tags/uk"
+        },
+        {
+          "_type": "tag",
+          "id": 2976,
+          "name": "Brit Pop",
+          "primary": false,
+          "url": "https://genius.com/tags/brit-pop"
+        },
+        {
+          "_type": "tag",
+          "id": 2033,
+          "name": "British Rock",
+          "primary": false,
+          "url": "https://genius.com/tags/british-rock"
+        },
+        {
+          "_type": "tag",
+          "id": 567,
+          "name": "Rock",
+          "primary": true,
+          "url": "https://genius.com/tags/rock"
+        }
+      ],
+      "top_scholar": {
+        "_type": "user_attribution",
+        "attribution_value": 165.1,
+        "pinned_role": null,
+        "user": {
+          "_type": "user",
+          "about_me_summary": "Danish Genius Editor previously going under the nicks “melballe,” and “Mazm.”\n\n\n\nIf I rejected or deleted your annotation/suggestion, please take the time to read this guideline. If you’re still unsure why it was rejected/deleted, hit me up and I’ll talk you through it :-)\n\n\n\nBuy CDs. Be nice to animals. Follow No Crowd.\n\nMy CD Collection.\nMy Concert Diary.\n\n\n\nAchievements:\n\n\nWinner of Scribe-A-Thon March 2015 Edition (155 songs)\n11/04 2015 – First time having a transcribed song displayed on the Genius frontpage.\n18/04 2015 – Editored, ScopeY TAUGHT ME.\n04/05 2015 – 10K IQ\n09/12 2016 – 25K IQ\n03/01 2017 – 30K IQ\n08/01 2017 – Nr. 36 Rock Top Genius Scholar – OF ALL TIME!\n05/05 2017 – 40K IQ\n09/08 2017 – 50K IQ\n04/12 2017 – 60K IQ\n23/04 2018 – 70K IQ\n27/07 2018 – 80K IQ\n02/05 2019 – 90K IQ\n\n\n\n\n\nMy Projects:\n\nWhat I’m working on\n\n\n\nI REALLY KINDA LIKE THESE artists:\n\n\nOasis\nKanyeWest\nNoelGallaghersHighFlyingBirds\nQueensoftheStoneAge\nAC/DC\nArcticMonkeys\ntheSmiths\nMorrissey\nNephew – theStrokes – theFloorIsMadeofLava – theKillers – SpleenUnited – PeterSommer – Kasabian – Audioslave – Metallica – FooFighters – theWhiteStripes – Eminem – Suspekt – Mew – theGame – BonIver – KingsOfLeon – DaftPunk – Justice – TenaciousD – PushaT – Outkast – JohnMayer – Wu-TangClan – GhostfaceKillah – Raekwon – Drake – KendrickLamar – theKillers",
+          "api_path": "/users/721779",
+          "avatar": {
+            "tiny": {
+              "url": "https://images.genius.com/avatars/tiny/fdc6ec3683eb872c7a3da920306fad23",
+              "bounding_box": {
+                "width": 16,
+                "height": 16
+              }
+            },
+            "thumb": {
+              "url": "https://images.genius.com/avatars/thumb/fdc6ec3683eb872c7a3da920306fad23",
+              "bounding_box": {
+                "width": 32,
+                "height": 32
+              }
+            },
+            "small": {
+              "url": "https://images.genius.com/avatars/small/fdc6ec3683eb872c7a3da920306fad23",
+              "bounding_box": {
+                "width": 100,
+                "height": 100
+              }
+            },
+            "medium": {
+              "url": "https://images.genius.com/avatars/medium/fdc6ec3683eb872c7a3da920306fad23",
+              "bounding_box": {
+                "width": 300,
+                "height": 400
+              }
+            }
+          },
+          "header_image_url": "https://s3.amazonaws.com/filepicker-images-rapgenius/eM4MQGEISUGa5YyqrcwW_american%20psycho%20huey%20lewis%20and%20the%20news%201.jpg",
+          "human_readable_role_for_display": "Editor",
+          "id": 721779,
+          "iq": 94191,
+          "is_meme_verified": false,
+          "is_verified": false,
+          "login": "m4ths",
+          "name": "m4ths",
+          "role_for_display": "editor",
+          "url": "https://genius.com/m4ths",
+          "current_user_metadata": {
+            "permissions": [
+
+            ],
+            "excluded_permissions": [
+              "follow"
+            ],
+            "interactions": {
+              "following": false
+            }
+          }
+        }
+      },
+      "verified_annotations_by": [
+
+      ],
+      "verified_contributors": [
+
+      ],
+      "verified_lyrics_by": [
+
+      ],
+      "writer_artists": [
+        {
+          "_type": "artist",
+          "api_path": "/artists/69347",
+          "header_image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+          "id": 69347,
+          "image_url": "https://images.genius.com/da2fa64a8de881731a1bd57406a1a85a.1000x711x1.jpg",
+          "index_character": "n",
+          "is_meme_verified": false,
+          "is_verified": false,
+          "name": "Noel Gallagher",
+          "slug": "Noel-gallagher",
+          "url": "https://genius.com/artists/Noel-gallagher"
+        },
+        {
+          "_type": "artist",
+          "api_path": "/artists/377951",
+          "header_image_url": "https://images.genius.com/2d7e35e4aa34feb4bf7a5e337b9ca9ad.300x300x1.jpg",
+          "id": 377951,
+          "image_url": "https://images.genius.com/2d7e35e4aa34feb4bf7a5e337b9ca9ad.300x300x1.jpg",
+          "index_character": "n",
+          "is_meme_verified": false,
+          "is_verified": false,
+          "name": "Neil Innes",
+          "slug": "Neil-innes",
+          "url": "https://genius.com/artists/Neil-innes"
+        }
+      ]
+    }
+}
