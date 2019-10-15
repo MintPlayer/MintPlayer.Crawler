@@ -24,6 +24,10 @@ namespace MintPlayer.Crawler.Request.Platforms
             {
                 return new SongtekstenNet.SongtekstenNetFetcher { Url = url };
             }
+            else if (LyricsCom.LyricsComFetcher.UrlFormat.IsMatch(url))
+            {
+                return new LyricsCom.LyricsComFetcher { Url = url };
+            }
             else
             {
                 throw new Exception("No fetcher found for this url");

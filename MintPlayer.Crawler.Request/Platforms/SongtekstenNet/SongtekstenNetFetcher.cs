@@ -26,13 +26,15 @@ namespace MintPlayer.Crawler.Request.Platforms.SongtekstenNet
 
             if (Url.StartsWith("https://songteksten.net/lyric/"))
             {
+                var artists = ExtractSongArtists(html).Select(a => a.ToDto());
                 return new Song
                 {
                     Url = Url,
                     Id = Convert.ToInt32(splitted[splitted.Length - 3]),
                     Lyrics = ExtractSongLyrics(html, true),
                     Title = ExtractSongTitle(html),
-                    Artists = ExtractSongArtists(html).Select(a => a.ToDto()).ToList()
+                    PrimaryArtist = artists.FirstOrDefault(),
+                    FeaturedArtists = artists.Skip(1).ToList()
                 };
             }
             else if (Url.StartsWith("https://songteksten.net/artist/"))

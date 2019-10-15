@@ -53,7 +53,8 @@ namespace MintPlayer.Crawler.Request.Platforms.Genius.Classes
                 Id = Id,
                 Title = Title,
                 ReleaseDate = ReleaseDate,
-                Artists = artists,
+                PrimaryArtist = PrimaryArtist.ToDto(),
+                FeaturedArtists = FeaturedArtists == null ? null : FeaturedArtists.Select(a => a.ToDto()).ToList(),
                 Url = Url,
                 Lyrics = Lyrics,
                 Media = new List<Data.Medium>(new[]

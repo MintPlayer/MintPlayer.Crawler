@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Json\LyricsCom\" />
-    <Folder Include="Platforms\LyricsCom\" />
+    <Folder Include="Platforms\LyricsCom\Classes\" />
   </ItemGroup>
 
 </Project>

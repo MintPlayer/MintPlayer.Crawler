@@ -6,9 +6,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using MintPlayer.Crawler.Request.Data;
+using Newtonsoft.Json;
 
 namespace MintPlayer.Crawler.Request.Platforms.Musixmatch
 {
+    /// <summary>This fetcher can only extract the title and lyrics from an URL.</summary>
     internal class MusixmatchFetcher : Fetcher
     {
         internal static Regex UrlFormat
@@ -22,11 +24,25 @@ namespace MintPlayer.Crawler.Request.Platforms.Musixmatch
         public override async Task<Subject> Fetch(HttpClient httpClient, bool trimTrash)
         {
             var html = await SendRequest(httpClient);
-            var result = new Data.Song
+            var ld_json = ReadLdJson(html);
+            var subject = JsonConvert.DeserializeObject<Classes.Subject>(ld_json);
+
+            switch (subject.Type)
             {
-                Lyrics = ExtractLyrics(html, true)
-            };
-            return result;
+                case "MusicRecording":
+                    {
+                        var song = JsonConvert.DeserializeObject<Classes.Song>(ld_json);
+                        var result = new Song
+                        {
+                            Lyrics = ExtractLyrics(html, true),
+                            Title = song.Title,
+                            Url = Url
+                        };
+                        return result;
+                    }
+                default:
+                    throw new NotImplementedException();
+            }
         }
 
         private string ExtractLyrics(string html, bool trimTrash)
@@ -39,6 +55,15 @@ namespace MintPlayer.Crawler.Request.Platforms.Musixmatch
             spanMatches.CopyTo(matches, 0);
 
             return string.Join("\r\n\r\n", matches.Select(m => m.Value));
+        }
+
+        private string ReadLdJson(string html)
+        {
+            var ldJsonRegex = new Regex(@"\<script data-react-helmet=""true"" type=\""application\/ld\+json\"".*?\>(?<body>.*?)\<\/script\>", RegexOptions.Singleline | RegexOptions.Multiline);
+            var ldJsonMatch = ldJsonRegex.Match(html);
+            if (!ldJsonMatch.Success) throw new Exception("No ld+json tag found");
+
+            return ldJsonMatch.Groups["body"].Value;
         }
     }
 }
